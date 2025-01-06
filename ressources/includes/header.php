@@ -6,7 +6,7 @@
         </li>
         <li>A PROPOS</li>
         <li>LIEUX DE VIE</li>
-        <li></li>
+        <li>CONTACT</li>
     </ul>
 </nav>
 
