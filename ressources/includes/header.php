@@ -1,7 +1,8 @@
 <nav class="navigation-principale">
     <ul>
         <li>
-            <a href="index.php">ACCUEIL</a>
+            <a href="Accueil.php">ACCUEIL</a>
+            <a href="Contact.php">CONTACT</a>
         </li>
         <li>A PROPOS</li>
         <li>LIEUX DE VIE</li>
