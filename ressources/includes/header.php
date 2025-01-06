@@ -2,11 +2,13 @@
     <ul>
         <li>
             <a href="Accueil.php">ACCUEIL</a>
+            <a href="a-propos.php">À PROPOS</a>
+            <a href="lieux-de-vie;php">LIEUX DE VIE</a>
             <a href="Contact.php">CONTACT</a>
         </li>
-        <li>A PROPOS</li>
-        <li>LIEUX DE VIE</li>
-        <li>CONTACT</li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
 </nav>
 
