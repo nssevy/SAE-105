@@ -6,9 +6,9 @@
             <a href="lieux-de-vie;php">LIEUX DE VIE</a>
             <a href="Contact.php">CONTACT</a>
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>À PROPOS</li>
+        <li>LIEUX DE VIE</li>
+        <li>CONTACT</li>
     </ul>
 </nav>
 
