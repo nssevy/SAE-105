@@ -25,7 +25,7 @@
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
-            <h1 class="titre-page">Articles sur le BUT 2</h1>
+            <h1 class="titre-page">Articles sur le BUT MMI</h1>
 
             <section class="colonne">
                 <section class="liste-articles">
