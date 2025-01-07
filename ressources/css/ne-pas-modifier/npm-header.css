@@ -69,3 +69,12 @@
 .bulle:hover .bulle-icone {
     transform: translate(22px, 6px);
 }
+
+
+.bulle-icone.bleu{
+  background-color: #22DDC8;
+}
+
+.bulle-icone-bordure.bleu{
+  background-color: #128D7F;
+}
