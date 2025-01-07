@@ -33,6 +33,10 @@
   background-color: #ef509f;
 }
 
+.bulle-icone.bleu {
+background-color: darkcyan;
+}
+
 .bulle-icone {
   position: absolute;
   top: -46px;
@@ -60,6 +64,10 @@
 
 .bulle-icone-bordure.rose {
   background-color: #a50253;
+}
+
+  .bulle-icone-bordure.bleu {
+    background-color: midnightblue;
 }
 
 .bulle:hover .bulle-icone-bordure {
