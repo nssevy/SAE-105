@@ -1,5 +1,5 @@
 <?php
-    $couleur_bulle_classe = "jaune";
+    $couleur_bulle_classe = "rose";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
