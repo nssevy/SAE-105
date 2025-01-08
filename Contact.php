@@ -27,6 +27,7 @@
         <main class="conteneur-principal">
             <h1 class="titre-page">NOUS CONTACTER</h1>
             <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
+            <br>
         <form action="contact.php" method="POST">
             <div class="form-group">
                 <label for="email">Email :</label>
