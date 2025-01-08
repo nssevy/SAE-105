@@ -26,6 +26,7 @@
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
             <h1 class="titre-page">NOUS CONTACTER</h1>
+            <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
         <form action="contact.php" method="POST">
             <div class="form-group">
                 <label for="email">Email :</label>
@@ -40,7 +41,7 @@
                 <input type="text" id="prenom" name="prenom" required>
             </div>
             <div class="form-group">
-                <label>Statut :</label>
+                <label>Vous êtes :</label>
                 <div>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label for="etudiant">Étudiant</label>

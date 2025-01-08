@@ -6,6 +6,11 @@ body {
 font-size: 2rem;
 }
 
+.sous-titre-page {
+    font-size: 1rem;
+    color: rgb(199, 11, 11);
+}
+
 .form-container {
     width: 50%;
     margin: 20px auto;
