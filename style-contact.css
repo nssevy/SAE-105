@@ -56,8 +56,9 @@ button:hover {
     background-color: darkblue;
 }
 
-.form-group div {
+.mise-page-radio {
     align-items: center;  
-    margin-right: 15px; 
+    margin-right: 10px; 
+    display: inline-flex;
     }
 

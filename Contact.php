@@ -43,13 +43,14 @@
             </div>
             <div class="form-group">
                 <label>Vous êtes :</label>
-                <div>
+                <div class="mise-page-radio">
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label for="etudiant">Étudiant</label>
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
                     <label for="professionnel">Professionnel</label>
                     <input type="radio" id="lyceen" name="statut" value="lyceen" required>
                     <label for="lyceen">Lycéen</label>
+                    <br>
             </div>
             <div class="form-group">
                 <label for="message">Message :</label>
