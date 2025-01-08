@@ -29,14 +29,15 @@
             <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
             <br>
         <form action="contact.php" method="POST" class="form-group">
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>  
-
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required>
+            
+        <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
 
                 <label for="prenom">Prénom :</label>
                 <input type="text" id="prenom" name="prenom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>  
 
                 <label>Vous êtes :</label>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
