@@ -39,14 +39,15 @@
                 <input type="text" id="prenom" name="prenom" required>
 
                 <label>Vous êtes :</label>
+                
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
-                    <label class="mise-page-radio" for="etudiant">Étudiant</label>
+                    <label for="etudiant">Étudiant</label>
 
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
-                    <label class="mise-page-radio" for="professionnel">Professionnel</label>
+                    <label for="professionnel">Professionnel</label>
 
                     <input type="radio" id="lyceen" name="statut" value="lyceen" required>
-                    <label class="mise-page-radio" for="lyceen">Lycéen</label>
+                    <label for="lyceen">Lycéen</label>
                     <br>
             <div class="form-group">
                 <label for="message">Message :</label>
