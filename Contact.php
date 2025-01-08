@@ -29,5 +29,6 @@
             <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>
     </section>
+    <p>Je vais le supp tkt</p>
 </body>
 </html>
