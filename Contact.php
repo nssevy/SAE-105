@@ -43,7 +43,6 @@
             </div>
             <div class="form-align">
                 <label>Vous êtes :</label>
-                <div>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label class="mise-page-radio" for="etudiant">Étudiant</label>
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
