@@ -39,8 +39,6 @@
                 <input type="text" id="prenom" name="prenom" required>
 
                 <label>Vous êtes :</label>
-
-                <br>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label for="etudiant">Étudiant</label>
 
