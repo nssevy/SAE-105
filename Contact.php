@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
+    <link rel="stylesheet" href="style-contact.css">
 </head>
 
 <body>
@@ -24,11 +25,44 @@
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
-            <h1 class="titre-page">CONTACT</h1>
-
+            <h1 class="titre-page">NOUS CONTACTER</h1>
+        <form action="contact.php" method="POST">
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label>Statut :</label>
+                <div>
+                    <input type="radio" id="etudiant" name="statut" value="etudiant" required>
+                    <label for="etudiant">Étudiant</label>
+                </div>
+                <div>
+                    <input type="radio" id="professionnel" name="statut" value="professionnel" required>
+                    <label for="professionnel">Professionnel</label>
+                </div>
+                <div>
+                    <input type="radio" id="lyceen" name="statut" value="lyceen" required>
+                    <label for="lyceen">Lycéen</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
             <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>
     </section>
-    <p>Je vais le supp tkt</p>
 </body>
 </html>
