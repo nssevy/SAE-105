@@ -25,11 +25,10 @@
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
-            <h1 class="titre-page">CONTACT</h1>
-            <h2>Contactez-nous</h2>
+            <h1 class="titre-page">NOUS CONTACTER</h1>
         <form action="contact.php" method="POST">
             <div class="form-group">
-                <label for="email">Adresse Email :</label>
+                <label for="email">Email :</label>
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">

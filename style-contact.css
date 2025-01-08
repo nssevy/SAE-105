@@ -36,7 +36,7 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(13, 132, 50);
     color: white;
     border: none;
     border-radius: 5px;
@@ -45,3 +45,9 @@ button {
 button:hover {
     background-color: darkblue;
 }
+
+.form-group div {
+    align-items: center;  
+    margin-right: 15px; 
+    }
+
