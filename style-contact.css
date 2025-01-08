@@ -56,8 +56,7 @@ button:hover {
     background-color: darkblue;
 }
 
-.mise-page-radio {
-    gap: 5px;  
+.mise-page-radio { 
     margin-right: 2px; 
     margin-left: 2px;
     display: inline-flex;
