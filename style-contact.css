@@ -58,5 +58,6 @@ button:hover {
 
 .mise-page-radio { 
     display: inline-flex;
+    gap: 2px;
     }
 
