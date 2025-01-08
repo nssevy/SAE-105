@@ -1,6 +1,11 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+.titre-page {
+font-size: 6rem;
+}
+
 .form-container {
     width: 50%;
     margin: 20px auto;
