@@ -28,36 +28,32 @@
             <h1 class="titre-page">NOUS CONTACTER</h1>
             <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
             <br>
-        <form action="contact.php" method="POST">
-            <div class="form-group">
+        <form action="contact.php" method="POST" class="form-group">
                 <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
+                <input type="email" id="email" name="email" required>  
+
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" required>
-            </div>
-            <div class="form-group">
+
                 <label for="prenom">Prénom :</label>
                 <input type="text" id="prenom" name="prenom" required>
-            </div>
-            <div class="form-align">
+
                 <label>Vous êtes :</label>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label class="mise-page-radio" for="etudiant">Étudiant</label>
+
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
                     <label class="mise-page-radio" for="professionnel">Professionnel</label>
+
                     <input type="radio" id="lyceen" name="statut" value="lyceen" required>
                     <label class="mise-page-radio" for="lyceen">Lycéen</label>
                     <br>
-            </div>
             <div class="form-group">
                 <label for="message">Message :</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
             <button type="submit">Envoyer</button>
         </form>
-    </div>
             <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>
     </section>
