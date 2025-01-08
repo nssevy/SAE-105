@@ -30,6 +30,7 @@ font-size: 2rem;
 }
 .form-group {
     margin-bottom: 15px;
+    display: inline-flex;
 }
 label {
     display: block;
