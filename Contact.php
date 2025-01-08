@@ -41,7 +41,7 @@
                 <label for="prenom">Prénom :</label>
                 <input type="text" id="prenom" name="prenom" required>
             </div>
-            <div class="form-group">
+            <div class="form-align">
                 <label>Vous êtes :</label>
                 <div>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
