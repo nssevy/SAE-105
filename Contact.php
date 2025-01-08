@@ -46,15 +46,10 @@
                 <div>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label for="etudiant">Étudiant</label>
-                </div>
-                <div>
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
                     <label for="professionnel">Professionnel</label>
-                </div>
-                <div>
                     <input type="radio" id="lyceen" name="statut" value="lyceen" required>
                     <label for="lyceen">Lycéen</label>
-                </div>
             </div>
             <div class="form-group">
                 <label for="message">Message :</label>
