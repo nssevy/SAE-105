@@ -57,8 +57,7 @@ button:hover {
     }
 
 .form-align {
-    display: inline-flex;
-    gap: 5px; 
+    display:flex; 
     align-items: center;         
 }    
 
