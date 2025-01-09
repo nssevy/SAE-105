@@ -53,15 +53,11 @@ button:hover {
 
 .mise-page-radio { 
     display: inline-flex;
-    gap: 2px;
+    gap: 0px;
     }
 
 .form-align {
     display:inline-flex; 
-    align-items: center;         
+    align-items: center;
+    vertical-align: middle;         
 }    
-
-input[type="radio"] {
-    margin: 0; 
-    vertical-align: middle;
-}

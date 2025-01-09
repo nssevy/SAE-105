@@ -41,8 +41,10 @@
 
                 <label>Vous êtes :</label>
                 <div class="form-align">
+                    <div>
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label for="etudiant">Étudiant</label>
+</div>
 
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
                     <label for="professionnel">Professionnel</label>
