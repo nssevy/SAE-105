@@ -40,6 +40,7 @@
                 <input type="email" id="email" name="email" required>  
 
                 <label>Vous êtes :</label>
+                <div class="form-align">
                     <input type="radio" id="etudiant" name="statut" value="etudiant" required>
                     <label for="etudiant">Étudiant</label>
 
