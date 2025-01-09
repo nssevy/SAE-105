@@ -29,9 +29,8 @@
 
             <section class="colonne">
                 <section class="liste-articles">
-                    <p>METTEZ VOS ARTICLES A L'INTERIEUR DE LA BALISE ".liste-articles" tout en supprimant cette balise &lt;p></p>
                     <a class="article" title="Formation BUT MMI" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique">
-                    <p>Je vois si ça fonctionne p></p>
+                   <a class="article" title="formation but mmi" href=" https://thotismedia.com/annuaire-parcoursup-but-mmi/">
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
