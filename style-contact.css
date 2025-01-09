@@ -61,3 +61,7 @@ button:hover {
     align-items: center;         
 }    
 
+input[type="radio"] {
+    margin: 0; 
+    vertical-align: middle;
+}
