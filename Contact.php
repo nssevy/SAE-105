@@ -49,6 +49,7 @@
 
                     <input type="radio" id="lyceen" name="statut" value="lyceen" required>
                     <label for="lyceen">Lycéen</label>
+                </div>
                     <br>
             <div class="form-group">
                 <label for="message">Message :</label>
