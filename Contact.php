@@ -29,6 +29,7 @@
             <h1 class="titre-page">NOUS CONTACTER</h1>
 
             <?php
+            $formStatus = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupération et validation des données du formulaire
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
@@ -46,8 +47,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $headers = "From: $email";
 
         // Tentative d'envoi
-        if (mail($to, $subject, $body, $headers)) {
-            $formStatus = "success"; // Succès
+        if (mail($email, $nom, $prenom, $statut,$message)) {
+            $formStatus = "success"; // Envoi réussi
         } else {
             $formStatus = "error"; // Erreur d'envoi
         }
