@@ -28,49 +28,6 @@
 
             <h1 class="titre-page">NOUS CONTACTER</h1>
 
-            <?php
-            $formStatus = '';
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Récupération et validation des données du formulaire
-    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-    $nom = htmlspecialchars(trim($_POST['nom']));
-    $prenom = htmlspecialchars(trim($_POST['prenom']));
-    $statut = htmlspecialchars($_POST['statut']);
-    $message = htmlspecialchars(trim($_POST['message']));
-
-    // Vérification des champs
-    if (!empty($email) && !empty($nom) && !empty($prenom) && !empty($statut) && !empty($message)) {
-        // Préparation de l'email
-        $to = "votre-adresse@mail.com"; // Remplacez par votre adresse email
-        $subject = "Nouveau message de contact";
-        $body = "Nom : $nom\nPrénom : $prenom\nStatut : $statut\nMessage :\n$message";
-        $headers = "From: $email";
-
-        // Tentative d'envoi
-        if (mail($email, $nom, $prenom, $statut,$message)) {
-            $formStatus = "success"; // Envoi réussi
-        } else {
-            $formStatus = "error"; // Erreur d'envoi
-        }
-    } else {
-        $formStatus = "incomplete"; // Champs incomplets
-    }
-}
-?>
-
- <!-- Affichage des messages -->
- <?php if (isset($formStatus)): ?>
-        <?php if ($formStatus === "success"): ?>
-            <div class="message success">Votre message a été envoyé avec succès !</div>
-        <?php elseif ($formStatus === "error"): ?>
-            <div class="message error">Une erreur est survenue lors de l'envoi. Veuillez réessayer.</div>
-        <?php elseif ($formStatus === "incomplete"): ?>
-            <div class="message incomplete">Veuillez remplir tous les champs du formulaire.</div>
-        <?php endif; ?>
-    <?php endif; ?>
-
-
-
             <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
            
         <form action="contact.php" method="POST" class="form-group">
