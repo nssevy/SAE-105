@@ -3,6 +3,21 @@
     /* Remplacez par la couleur verte exacte de votre maquette */
 }
 
+.container {
+    max-width: 900px;
+    /* Limite la largeur de la zone */
+    margin: 20px auto;
+    /* Centre la zone sur la page */
+    padding: 20px;
+    /* Ajoute un espace intérieur */
+    font-family: Arial, sans-serif;
+    /* Police lisible */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Ajoute un espacement de 20px entre les enfants */
+}
+
 .menu {
     border: 1px solid rgba(3, 136, 109, 1);
     /* Bordure verte */
@@ -33,36 +48,42 @@
 }
 
 .text {
-    max-width: 800px;
-    /* Limite la largeur de la zone */
-    margin: 20px auto;
-    /* Centre la zone sur la page */
-    padding: 20px;
-    /* Ajoute un espace intérieur */
-    background-color: #f9f9f9;
-    /* Couleur de fond claire */
-    border: 1px solid #ddd;
-    /* Bordure légère */
-    border-radius: 5px;
-    /* Coins arrondis */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Effet d'ombre */
-    font-family: Arial, sans-serif;
-    /* Police lisible */
     line-height: 1.6;
     /* Espacement des lignes pour améliorer la lisibilité */
-    text-align: justify;
+    text-align: left;
     /* Justifie le texte */
+
+}
+
+.text>* {
+    margin-bottom: 20px;
+}
+
+.text>*:last-child {
+    margin-bottom: 0;
 }
 
 .text ul {
-    margin-top: 20px;
-    /* Ajoute un espace avant la liste */
     padding-left: 20px;
-    /* Décale la liste vers la droite */
+    /* Assure un retrait des puces */
+    list-style: disc;
+    /* Style des puces */
+    list-style-position: outside;
+    /* Position des puces à l'extérieur */
 }
 
-.text ul li {
-    margin-bottom: 10px;
-    /* Ajoute un espace entre les éléments de la liste */
+.text li {
+    line-height: 1.6;
+    /* Ajuste l'espacement des lignes dans les listes */
+}
+
+.bold {
+    font-weight: bold;
+    /* Texte en gras */
+}
+
+h2 {
+    font-size: 25px;
+    /* Taille de la police */
+    font-weight: bold;
 }
