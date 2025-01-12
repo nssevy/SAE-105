@@ -29,6 +29,10 @@
 
             <section class="colonne">
                 <section class="liste-articles">
+                    <div class="container">
+                        <h1> Articles sur le BUT MMI </h1>
+                        <div class="article">
+                        <div class="article-content">
                     <a class="article" title="Formation BUT MMI" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique">
                    <a class="article" title="formation but mmi" href=" https://thotismedia.com/annuaire-parcoursup-but-mmi/">
                 </section>
