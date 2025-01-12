@@ -1,5 +1,6 @@
 <?php
-    $couleur_bulle_classe = "xxx";
+    $couleur_bulle_classe = "jaune";
+    $couleur_bordure_classe="orange";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -14,7 +15,8 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
-    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-contact.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
 </head>
 
 <body>
@@ -25,9 +27,11 @@
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
+
             <h1 class="titre-page">NOUS CONTACTER</h1>
+
             <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
-            <br>
+           
         <form action="contact.php" method="POST" class="form-group">
             
         <label for="nom">Nom :</label>
@@ -46,11 +50,13 @@
                     <label for="etudiant">Étudiant</label>
 </div>
 
+<div>
                     <input type="radio" id="professionnel" name="statut" value="professionnel" required>
-                    <label for="professionnel">Professionnel</label>
+                    <label for="professionnel">Professionnel</label></div>
 
+                    <div>
                     <input type="radio" id="lyceen" name="statut" value="lyceen" required>
-                    <label for="lyceen">Lycéen</label>
+                    <label for="lyceen">Lycéen</label></div>
                 </div>
                     <br>
             <div class="form-group">
@@ -63,4 +69,9 @@
         </main>
     </section>
 </body>
+
+<footer>
+    <?php require_once('./ressources/includes/footer.php'); ?>
+</footer>
+
 </html>

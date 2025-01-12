@@ -1,5 +1,6 @@
 <?php
-    $couleur_bulle_classe = "xxx";
+    $couleur_bulle_classe = "rouge";
+    $couleur_bordure_classe = "rf";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -14,6 +15,8 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-sur-les-médias.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
 </head>
 
 <body>
@@ -28,4 +31,9 @@
         </main>
     </section>
 </body>
+
+<footer>
+    <?php require_once('./ressources/includes/footer.php'); ?>
+</footer>
+
 </html>

@@ -1,0 +1,64 @@
+/* Footer global */
+.footer {
+    background-color: #b3b1b1;
+    /* Couleur de fond légèrement grise */
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    /* Espace entre les éléments gauche/droite */
+    align-items: center;
+    /* Aligne verticalement les éléments */
+    max-width: 1200px;
+    /* Largeur maximale du footer */
+    padding-left: 20rem;
+    margin: 0 auto;
+
+}
+
+.footer-left {
+    flex-shrink: 0;
+    /* Garde la taille de la zone logo fixe */
+}
+
+.footer-logo {
+    max-width: 150px;
+    /* Taille maximale du logo */
+    height: auto;
+}
+
+.footer-left {
+    flex-grow: 1;
+    /* Prend tout l'espace restant à droite */
+    text-align: left;
+    /* Aligne le texte à droite */
+    border-left: 1px solid #000;
+    /* Bordure en haut du footer */
+}
+
+.footer-right p {
+    margin: 5px 0;
+    /* Espacement entre les paragraphes */
+}
+
+.footer-right a {
+    color: #007bff;
+    /* Couleur des liens (bleu) */
+    text-decoration: none;
+    margin: 0 5px;
+    /* Espacement horizontal entre les liens */
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+    /* Style de survol */
+}
+
+.border-vertical {
+    border-: 1px solid #000;
+    /* Bordure en haut du footer */
+}

@@ -1,0 +1,107 @@
+.jaune {
+    background-color: rgba(255, 231, 0, 1);
+    /* Couleur du rond*/
+}
+
+.orange {
+    background-color: rgba(238, 143, 0, 1);
+    /* Couleur du rond*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles pour le formulaire */
+.titre-page {
+    font-size: 2rem;
+}
+
+.sous-titre-page {
+    font-size: 1rem;
+    color: rgb(199, 11, 11);
+}
+
+.form-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(13, 132, 50);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.mise-page-radio {
+    display: inline-flex;
+    gap: 0px;
+}
+
+.form-align {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/* Styles pour les messages d'envois */
+.message {
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.message.success {
+    color: white;
+    background-color: green;
+}
+
+.message.error {
+    color: white;
+    background-color: red;
+}
+
+.message.incomplete {
+    color: black;
+    background-color: yellow;
+    border: 1px solid orange;
+}

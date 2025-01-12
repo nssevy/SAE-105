@@ -1,0 +1,43 @@
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box {
+    border: 2px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.box p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contenu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-gauche, .image-droite {
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.texte {
+    width: 100%;
+    max-width: 50%;
+    padding-left: 20px;
+}
