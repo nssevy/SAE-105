@@ -1,5 +1,6 @@
 <?php
-    $couleur_bulle_classe = "vert";
+    $couleur_bulle_classe="vert";
+    $couleur_bordure_classe="vf";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -14,7 +15,8 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
-    <link rel="stylesheet" href="ressources/style-a-propos.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="ressources/css-élève/style-a-propos.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
     
 </head>
 
@@ -54,22 +56,86 @@
 
             <div class="text">
 
-                <h2>Situation d'Apprentissage et d'Évaluation</h2>
+                <h1>Situation d'Apprentissage et d'Évaluation</h1>
 
                 <p>Dans l'optique de préparer au mieux les étudiants à leur future vie professionnelle, les étudiants sont regroupés en agences de communication de 3 à 7 personnes dans des projets appelés "SAÉ" ou Situation d'Apprentissage et d'Évaluation. Ces agences ont pour but d’encourager le travail d'équipe dans un cadre reprenant l'environnement du travail en entreprise.</p>
                 
-                <p>La situation d'apprentissage et d'évaluation ou simplement SAÉ est la situation didactique que privilégie, au Québec, le Ministère de l'Éducation, Enseignement supérieur et Recherche (MEESR) par le biais du Programme de formation de l'école québécoise (PFEQ). Une SAÉ se définit comme un ensemble constitué d'une ou plusieurs tâches à réaliser par l’élève en vue d’atteindre le but fixé. Elle permet : à l'élève, de développer et d’exercer une ou plusieurs compétences disciplinaires et transversales ; à l'enseignant, d’assurer le suivi du développement des compétences dans une perspective d'aide à l'apprentissage. Elle est donc centrée sur l'élève et préconise une approche constructiviste ou socioconstructiviste à l'école.</p>
+                <p>La situation d'apprentissage et d'évaluation ou simplement SAÉ est la situation didactique que privilégie, au Québec, le Ministère de l'Éducation, Enseignement supérieur et Recherche (MEESR) par le biais du Programme de formation de l'école québécoise (PFEQ). Une SAÉ se définit comme un ensemble constitué d'une ou plusieurs tâches à réaliser par l’élève en vue d’atteindre le but fixé. Elle permet : à l'élève, de développer et d’exercer une ou plusieurs compétences disciplinaires et transversales; à l'enseignant, d’assurer le suivi du développement des compétences dans une perspective d'aide à l'apprentissage. Elle est donc centrée sur l'élève et préconise une approche constructiviste ou socioconstructiviste à l'école.</p>
 
-                <p>Les SAÉ sont une nouveauté des diplômes BUT, elles visent à remplacer les Devoirs Sur Table et les notes à terme, en proposant une approche plus "ingénieure" de la scolarité avec des étudiants qui apprennent à résoudre des problèmes et non plus apprendre par cœur leurs cours.</p>
+                <p>Les SAÉ sont une nouveauté des diplômes BUT, <span class="bold">elles visent à remplacer les Devoirs Sur Table et les notes à terme,</span> en proposant une approche plus "ingénieure" de la scolarité avec des étudiants qui apprennent à résoudre des problèmes et non plus apprendre par cœur leurs cours.</p>
 
+            </div>
+
+            <div>
+
+                <h1>Exemple de projet réalisés en SAÉ</h1>
+                
+                <div class="container-card">
+
+                    <div class="cards-grid">
+                        
+                        <div class="card">
+                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
+                            <div class="card-content">
+                                <h3>Auditer une communication numérique • SAÉ 101</h3>
+                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
+                            <div class="card-content">
+                                <h3>Concevoir une recommandation de communication numérique • SAÉ 102</h3>
+                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
+                            <div class="card-content">
+                                <h3>Produire les éléments d'une communication visuelle • SAÉ 103</h3>
+                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
+                            <div class="card-content">
+                                <h3>Auditer une communication numérique • SAÉ 101</h3>
+                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
+                            <div class="card-content">
+                                <h3>Produire un site Web • SAÉ 105</h3>
+                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
+                            <div class="card-content">
+                                <h3>Gérer un projet de communication numérique • SAÉ 106</h3>
+                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </div>
 
-            <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>
     </section>
 </body>
+
+<footer>
+    <?php require_once('./ressources/includes/footer.php'); ?>
+</footer>
 
 </html>

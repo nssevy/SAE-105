@@ -2,13 +2,23 @@
     <ul>
         <li>
             <a href="Accueil.php">ACCUEIL</a>
+        </li>
+        
+        <li>
             <a href="a-propos.php">À PROPOS</a>
-            <a href="lieux-de-vie;php">LIEUX DE VIE</a>
+        </li>
+
+        <li>
+            <a href="lieux-de-vie.php">LIEUX DE VIE</a>
+        </li>
+
+        <li>
+            <a href="sur-les-médias.php">SUR LES MÉDIAS</a>
+        </li>
+
+        <li>
             <a href="Contact.php">CONTACT</a>
         </li>
-        <li>À PROPOS</li>
-        <li>LIEUX DE VIE</li>
-        <li>CONTACT</li>
     </ul>
 </nav>
 
@@ -26,5 +36,5 @@
     </article>
 
     <article class="bulle-icone <?php echo $couleur_bulle_classe; ?>"></article>
-    <article class="bulle-icone-bordure <?php echo $couleur_bulle_classe; ?>"></article>
+    <article class="bulle-icone-bordure <?php echo $couleur_bordure_classe; ?>"></article>
 </header>
