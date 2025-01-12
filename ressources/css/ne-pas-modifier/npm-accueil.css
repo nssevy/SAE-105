@@ -85,3 +85,35 @@
   display: flex;
   justify-content: space-between;
 }
+.container {
+  max-width: 800px;
+  margin:59px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.article {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(O,O,O,O.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.article img {
+  width: 100%;
+  height : auto;
+  display:block;
+}
+
+.article-content {
+  font-size: 1rem;
+  color :#555;
+  line-height: 1.6;
+}
+
