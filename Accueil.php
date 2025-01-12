@@ -35,6 +35,7 @@
                         <h1> Articles sur le BUT MMI </h1>
                         <div class="article">
                             <img src="./Téléchargement/But mmi Thotis.jpg">
+                            <img src="RAWAT/BUT-MMI-1">
                         <div class="article-content">
                     <a class="article" title="Formation BUT MMI" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique"> Formation BUT MMI </a>
                    <a class="article" title="formation but mmi" href=" https://thotismedia.com/annuaire-parcoursup-but-mmi/">
