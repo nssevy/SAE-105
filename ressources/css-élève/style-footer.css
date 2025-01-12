@@ -7,15 +7,15 @@
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    /* Espace entre les éléments gauche/droite */
+    justify-content: center;
+    /* Centre les éléments horizontalement */
     align-items: center;
-    /* Aligne verticalement les éléments */
+    /* Centre les éléments verticalement */
     max-width: 1200px;
     /* Largeur maximale du footer */
-    padding-left: 20rem;
     margin: 0 auto;
-
+    /* Centre le conteneur horizontalement */
+    flex-direction: row;
 }
 
 .footer-logo {
@@ -41,6 +41,12 @@
     /* Ajoute un espace entre les éléments */
     flex-shrink: 0;
     /* Garde la taille de la zone logo fixe */
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Centre le conteneur du footer horizontalement */
 }
 
 .footer-right p {
@@ -74,4 +80,25 @@
 
 .spaceR {
     padding-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        /* Change layout to column on smaller screens */
+    }
+
+    .footer-left {
+        text-align: center;
+        /* Center text on smaller screens */
+        border-left: none;
+        /* Remove left border on smaller screens */
+        padding-left: 0;
+        /* Remove left padding on smaller screens */
+    }
+
+    .footer-left p {
+        margin: 10px 0;
+        /* Adjust margin for paragraphs */
+    }
 }
