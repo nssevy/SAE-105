@@ -1,8 +1,6 @@
 /* Footer global */
 .footer {
-    background-color: #b3b1b1;
-    /* Couleur de fond légèrement grise */
-    padding: 20px;
+    padding: 80px 0 80px 0;
     font-size: 14px;
     text-align: center;
 }
@@ -20,11 +18,6 @@
 
 }
 
-.footer-left {
-    flex-shrink: 0;
-    /* Garde la taille de la zone logo fixe */
-}
-
 .footer-logo {
     max-width: 150px;
     /* Taille maximale du logo */
@@ -36,8 +29,18 @@
     /* Prend tout l'espace restant à droite */
     text-align: left;
     /* Aligne le texte à droite */
-    border-left: 1px solid #000;
-    /* Bordure en haut du footer */
+    border-left: 1.3px solid rgba(112, 112, 112, 1);
+    /* Ajoute un trait noir à gauche */
+    padding-left: 10px;
+    /* Ajoute un espacement entre le trait et le contenu */
+    color: rgba(112, 112, 112, 1);
+    display: flex;
+    flex-direction: column;
+    /* Aligne verticalement */
+    gap: 10px;
+    /* Ajoute un espace entre les éléments */
+    flex-shrink: 0;
+    /* Garde la taille de la zone logo fixe */
 }
 
 .footer-right p {
@@ -58,7 +61,17 @@
     /* Style de survol */
 }
 
-.border-vertical {
-    border-: 1px solid #000;
-    /* Bordure en haut du footer */
+.space {
+    padding-right: 10px;
+}
+
+.border {
+    border-left: 1.3px solid rgba(112, 112, 112, 1);
+    /* Ajoute un trait noir à droite */
+    padding-left: 5px;
+    /* Ajoute un espacement entre le trait et le contenu */
+}
+
+.spaceR {
+    padding-right: 5px;
 }

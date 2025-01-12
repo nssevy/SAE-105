@@ -2,8 +2,8 @@
 
     <div class="footer-container">
 
-        <div>
-            <img src="ressources/images/logo-cyu-blanc.png" alt="Logo CY Université" class="footer-logo">
+        <div class="space">
+            <img src="ressources/images/logo-cyu-colors.png" alt="Logo CY Université" class="footer-logo">
         </div>
 
         <div class="footer-left">
@@ -17,10 +17,11 @@
                 target="_blank"
                 rel="noopener noreferrer">Twitter</a> 
 
-                <a href="https://mycy.cyu.fr/"
+                <a class="spaceR" href="https://mycy.cyu.fr/"
                 target="_blank"
                 rel="noopener noreferrer">Université CY Paris Université</a> 
-                <a href="#">Remonter</a>
+
+                <a class="border" href="#">Remonter</a>
             </p>
             <p>© 2013–2021 - BUT MMI - CY Paris Université - SAE 105</p>
         </div>
