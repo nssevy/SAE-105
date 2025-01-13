@@ -14,11 +14,7 @@ html {
 }
 
 .container {
-    max-width: 900px;
-    /* Limite la largeur de la zone */
-    margin: 20px auto;
-    /* Centre la zone sur la page */
-    padding: 35px;
+    padding: 0 150px;
     /* Ajoute un espace intérieur */
     display: flex;
     flex-direction: column;
@@ -38,6 +34,7 @@ html {
 .menu a {
     display: block;
     margin-bottom: 15px;
+    /* Ajoute un espace exterrieur en bas */
     text-decoration: none;
     font-size: 18px;
     color: rgba(3, 136, 109, 1);
