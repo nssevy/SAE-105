@@ -1,3 +1,8 @@
+/* Activer le défilement fluide */
+html {
+    scroll-behavior: smooth;
+}
+
 .marron {
     background-color: rgba(0, 181, 224, 88);
     /* Couleur du rond*/
@@ -69,13 +74,28 @@
     gap: 1.25rem;
 }
 
-.lien p {
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    align-self: stretch;
+}
+
+.menu a {
     color: #1482B1;
     font-family: "Open Sans";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Ajoute le soulignement lors du survol */
 }
 
 .part-2 {

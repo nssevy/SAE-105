@@ -34,64 +34,64 @@
 
                 <div class="choisis-theme">
                     <h2>Choisissez un thème :</h2>
-                    <div class="lien">
-                        <p>index</p>
-                        <p>index</p>
-                        <p>index</p>
-                        <p>index</p>
-                        <p>index</p>
+                    <div class="menu">
+                        <a href="#index1">Sujet 1</a>
+                        <a href="#index2">Sujet 2</a>
+                        <a href="#index3">Sujet 3</a>
+                        <a href="#index4">Sujet 4</a>
+                        <a href="#index5">Sujet 5</a>
                     </div>
                 </div>
             </div>
 
             <div class="part-2">
 
-                <div class="component">
+                <div class="component" id="index1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1007" height="2" viewBox="0 0 1007 2" fill="none">
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Index</h2>
+                        <h2>Sujet 1</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
                     </div>
                 </div>
 
-                <div class="component">
+                <div class="component" id="index2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1007" height="2" viewBox="0 0 1007 2" fill="none">
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Index</h2>
+                        <h2>Sujet 2</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
                     </div>
                 </div>
 
-                <div class="component">
+                <div class="component" id="index3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1007" height="2" viewBox="0 0 1007 2" fill="none">
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Index</h2>
+                        <h2>Sujet 3</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
                     </div>
                 </div>
 
-                <div class="component">
+                <div class="component" id="index4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1007" height="2" viewBox="0 0 1007 2" fill="none">
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Index</h2>
+                        <h2>Sujet 4</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
                     </div>
                 </div>
 
-                <div class="component">
+                <div class="component" id="index5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1007" height="2" viewBox="0 0 1007 2" fill="none">
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Index</h2>
+                        <h2>Sujet 5</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
                     </div>
                 </div>
