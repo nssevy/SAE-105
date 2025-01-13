@@ -40,18 +40,7 @@
 <body>
 <div class="container">
         <h1>Articles sur le BUT MMI</h1>
-        <div class="article">
-            <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" > Le but mmi </a>
-            <img src="BUT-MMI-1" alt="Développement web">
-            <div class="article-content">
-                <h2>Développement web</h2>
-                <p>
-                    Initier les étudiants et les étudiantes aux bases de la programmation de pages HTML.
-                    On y apprend les langages HTML et CSS, simples mais énormément pratiques.
-                    Le web ayant été pensé pour être accessible, le cours enseigne également les normes
-                    d'accessibilités comme le contraste des couleurs ou encore la taille des polices d'écriture.
-                </p>
-            </div>
+        
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes"> 
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
