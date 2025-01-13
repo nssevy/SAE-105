@@ -1,5 +1,6 @@
 <?php
     $couleur_bulle_classe = "rose";
+    $couleur_bordure_classe = "bordeau"
 ?>
 <!DOCTYPE html>
 <html lang="fr">
