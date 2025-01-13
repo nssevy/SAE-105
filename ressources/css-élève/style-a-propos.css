@@ -150,8 +150,6 @@ h1 {
 }
 
 .container-card {
-    max-width: 900px;
-    /* Limite la largeur de la zone */
     margin: 20px auto;
     /* Centre la zone sur la page */
     font-family: Arial, sans-serif;
