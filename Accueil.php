@@ -1,6 +1,6 @@
 <?php
     $couleur_bulle_classe = "rose";
-    $couleur_bordure_classe = "bordeau"
+    $couleur_bordure_classe = "bordeau";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -29,17 +29,30 @@
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
             <h1 class="titre-page">Articles sur le BUT MMI</h1>
-
-            <section class="colonne">
-                <section class="liste-articles">
-                    <div class="container">
-                        <h1> Articles sur le BUT MMI </h1>
-                        <div class="article">
-                            <img src="ressources/images/But mmi Thotis.jpg">
-                            <img src="RAWAT/BUT-MMI-1">
-                        <div class="article-content">
-                    <a class="article" title="Formation BUT MMI" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique"> Formation BUT MMI </a>
-                   <a class="article" title="formation but mmi" href=" https://thotismedia.com/annuaire-parcoursup-but-mmi/">
+            <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développement Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <a href=https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique> La formation </a>
+            <img src="BUT-MMI-1" alt="Image représentant le développement web">
+        </a>
+        <div class="text">
+            <h1>Développement web</h1>
+            <p>
+                Initier les étudiants et les étudiantes aux bases de la programmation de pages HTML.
+                On y apprend les langages HTML et CSS, simples mais énormément pratiques. Le web
+                ayant été pensé pour être accessible, le cours enseigne également les normes
+                d'accessibilité comme le contraste des couleurs ou encore la taille des polices
+                d'écriture.
+            </p>
+        </div>
+    </div>
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes"> 
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
