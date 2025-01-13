@@ -1,3 +1,8 @@
+/* Activer le défilement fluide */
+html {
+    scroll-behavior: smooth;
+}
+
 .vert {
     background-color: rgba(12, 238, 192, 1);
     /* Couleur du rond*/
@@ -15,8 +20,6 @@
     /* Centre la zone sur la page */
     padding: 35px;
     /* Ajoute un espace intérieur */
-    font-family: Arial, sans-serif;
-    /* Police lisible */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -26,17 +29,17 @@
 .menu {
     border: 1px solid rgba(3, 136, 109, 1);
     /* Bordure verte */
-    padding: 10px;
-    width: 200px;
+    padding: 15px;
+    width: 230px;
     background: rgba(249, 249, 249, 1) 0% 0% no-repeat padding-box;
     /* Couleur de fond */
 }
 
 .menu a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(3, 136, 109, 1);
     /* Texte vert */
     transition: color 0.3s;

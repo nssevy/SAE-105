@@ -25,9 +25,7 @@
         <?php require_once('./ressources/includes/header.php'); ?>
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
-        <main class="conteneur-principal">  
-            
-        <div class="container">
+        <main class="container">  
 
             <div class="menu">
                 <a href="#presentation">Présentation</a>
@@ -35,7 +33,7 @@
                 <a href="#exemples-sae">Exemples de SAÉ</a>
             </div>
 
-            <div class="text">
+            <div class="text" id="presentation">
                 <p>Le BUT métiers du multimédia et de l'internet (MMI) remplace le DUT MMI à partir de la rentrée 2021, auparavant appelé DUT SRC (services et réseaux de communication) jusqu'en mai 2013, qui était lancé à la rentrée universitaire 1994 par les IUT de Vélizy, Marne-la-Vallée, Saint-Raphaël et Verdun. Ce BUT offre une alternative aux anciens diplômes Bac+3, tels que la licence professionnelle en activités et techniques de communication et la licence professionnelle en systèmes informatiques et logiciels.</p>
 
                 <p>Lorsque cette formation était proposée sous la forme d'un Diplôme Universitaire Technologique (DUT), elle se déroulait sur deux années (1 800 heures). En théorie, elle est accessible à tous les bacheliers, quelle que soit leur série. En moyenne, il y a de 30 à 35 heures de cours par semaine. Cette formation se divise en trois grands pôles, auxquels il faut ajouter le projet tutoré (300 heures) et les stages (420 heures).</p>
@@ -54,7 +52,7 @@
 
             </div>
 
-            <div class="text">
+            <div class="text" id="sae">
 
                 <h1>Situation d'Apprentissage et d'Évaluation</h1>
 
@@ -66,7 +64,7 @@
 
             </div>
 
-            <div>
+            <div id="exemples-sae">
 
                 <h1>Exemple de projet réalisés en SAÉ</h1>
                 
