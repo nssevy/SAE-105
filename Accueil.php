@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
     <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-accueil.css">
     
 
     <!-- Vous n'avez pas besoin de ce fichier sur les autres pages. Ca allège le temps de chargement et diminue la consommation d'électricité -->
