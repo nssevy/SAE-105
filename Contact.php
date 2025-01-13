@@ -26,45 +26,85 @@
         ?>
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
-        <main class="conteneur-principal">
+        <?php
+    
+    $error = $success = '';
+    $prenom = $nom = $email = $message = $type = '';
 
-            <h1 class="titre-page">NOUS CONTACTER</h1>
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $prenom = trim($_POST["prenom"]);
+        $nom = trim($_POST["nom"]);
+        $email = trim($_POST["email"]);
+        $message = trim($_POST["message"]);
+        $type = isset($_POST["type"]) ? $_POST["type"] : '';
 
-            <h2 class="sous-titre-page">Remplissez notre formulaire</h2>
-           
-        <form action="contact.php" method="POST" class="form-group">
-            
-        <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required>
+        if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
+            $error = "Veuillez remplir tous les champs du formulaire.";
+        } else {
+            $success = "Votre message a bien été envoyé. Merci de nous avoir contactés !";
+        }
 
-                <label for="prenom">Prénom :*</label>
-                <input type="text" id="prenom" name="prenom" required>
+    }
+     // Adresse e-mail de réception
+     $to = "votreadresse@example.com";  // Remplacez par l'adresse e-mail de réception
+     $subject = "Nouveau message depuis le formulaire de contact";
+     $email_message = "Vous avez reçu un nouveau message :\n\n";
+     $email_message .= "Prénom : $prenom\n";
+     $email_message .= "Nom : $nom\n";
+     $email_message .= "E-mail : $email\n";
+     $email_message .= "Type : $type\n";
+     $email_message .= "Message :\n$message\n";
 
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>  
+     $headers = "From: $email\r\n";
+     $headers .= "Reply-To: $email\r\n";
 
-                <label>Vous êtes :</label>
-                <div class="form-align">
-                    <div>
-                    <input type="radio" id="etudiant" name="statut" value="etudiant" required>
-                    <label for="etudiant">Étudiant</label>
-</div>
+     // Envoi du mail
+     if (mail($to, $subject, $email_message, $headers)) {
+         $success = "Votre message a bien été envoyé. Merci de nous avoir contactés !";
+    
+    // Réinitialisation des champs du formulaire après envoi
+         $prenom = $nom = $email = $message = $type = '';
+     } else {
+         $error = "Une erreur est survenue lors de l'envoi du message.";
+     }
+ 
 
-<div>
-                    <input type="radio" id="professionnel" name="statut" value="professionnel" required>
-                    <label for="professionnel">Professionnel</label></div>
+?>
 
-                    <div>
-                    <input type="radio" id="lyceen" name="statut" value="lyceen" required>
-                    <label for="lyceen">Lycéen</label></div>
-                </div>
-                    <br>
-            <div class="form-group">
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+    <?php if ($error): ?>
+        <div class="error-banner"><?php echo $error; ?></div>
+    <?php elseif ($success): ?>
+        <div class="success-banner"><?php echo $success; ?></div>
+    <?php endif; ?>
+
+    <div class="form-container">
+        <h1>Nous contacter</h1>
+        <form method="post" action="">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
+
+            <label for="nom">Nom de famille</label>
+            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
+
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
+
+            <label>Je suis :</label>
+            <div class="radio-group">
+                <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
+                <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
+                <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
+                <label><input type="radio" name="type" value="Non Precise" <?php echo ($type == 'Non Precise') ? 'checked' : ''; ?>> Je ne souhaite pas le préciser</label>
             </div>
-            <button type="submit">Envoyer</button>
+
+            <button type="submit">ENVOYER</button>
         </form>
+    </div>
+</body>
+</html>
             <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>
     </section>

@@ -1,107 +1,76 @@
-.jaune {
-    background-color: rgba(255, 231, 0, 1);
-    /* Couleur du rond*/
-}
-
-.orange {
-    background-color: rgba(238, 143, 0, 1);
-    /* Couleur du rond*/
-}
-
 body {
     font-family: Arial, sans-serif;
-}
-
-/* Styles pour le formulaire */
-.titre-page {
-    font-size: 2rem;
-}
-
-.sous-titre-page {
-    font-size: 1rem;
-    color: rgb(199, 11, 11);
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .form-container {
-    width: 50%;
-    margin: 20px auto;
+    max-width: 600px;
+    margin: 50px;
     padding: 20px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-container h2 {
+h1 {
     text-align: center;
-}
-
-.form-group {
-    margin-bottom: 15px;
+    color: #333;
 }
 
 label {
     display: block;
-    font-weight: bold;
+    margin: 15px 0 5px;
 }
 
-input,
-textarea,
-select {
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+.radio-group {
+    margin-top: 10px;
 }
 
 button {
-    display: block;
     width: 100%;
     padding: 10px;
-    background-color: rgb(13, 132, 50);
-    color: white;
+    background-color: #007BFF;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: darkblue;
+    background-color: #0056b3;
 }
 
-.mise-page-radio {
-    display: inline-flex;
-    gap: 0px;
-}
-
-.form-align {
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle;
-}
-
-/* Styles pour les messages d'envois */
-.message {
-    padding: 10px;
-    margin: 20px 0;
-    border-radius: 5px;
+.error-banner {
+    background-color: #ff4d4d;
+    color: white;
     text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.message.success {
+.success-banner {
+    background-color: #4CAF50;
     color: white;
-    background-color: green;
-}
-
-.message.error {
-    color: white;
-    background-color: red;
-}
-
-.message.incomplete {
-    color: black;
-    background-color: yellow;
-    border: 1px solid orange;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
 }
