@@ -27,6 +27,7 @@
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <?php
+    
     $error = $success = '';
     $prenom = $nom = $email = $message = $type = '';
 
@@ -42,8 +43,33 @@
         } else {
             $success = "Votre message a bien été envoyé. Merci de nous avoir contactés !";
         }
+
     }
-    ?>
+     // Adresse e-mail de réception
+     $to = "votreadresse@example.com";  // Remplacez par l'adresse e-mail de réception
+     $subject = "Nouveau message depuis le formulaire de contact";
+     $email_message = "Vous avez reçu un nouveau message :\n\n";
+     $email_message .= "Prénom : $prenom\n";
+     $email_message .= "Nom : $nom\n";
+     $email_message .= "E-mail : $email\n";
+     $email_message .= "Type : $type\n";
+     $email_message .= "Message :\n$message\n";
+
+     $headers = "From: $email\r\n";
+     $headers .= "Reply-To: $email\r\n";
+
+     // Envoi du mail
+     if (mail($to, $subject, $email_message, $headers)) {
+         $success = "Votre message a bien été envoyé. Merci de nous avoir contactés !";
+    
+    // Réinitialisation des champs du formulaire après envoi
+         $prenom = $nom = $email = $message = $type = '';
+     } else {
+         $error = "Une erreur est survenue lors de l'envoi du message.";
+     }
+ 
+
+?>
 
     <?php if ($error): ?>
         <div class="error-banner"><?php echo $error; ?></div>
