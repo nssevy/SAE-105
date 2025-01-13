@@ -20,94 +20,86 @@
 </head>
 
 <body>
-    <section class="conteneur-1280">
+<section class="conteneur-1280">
         <?php require_once('./ressources/includes/header.php'); 
         
         ?>
-
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <?php
-    
-    $error = $success = '';
-    $prenom = $nom = $email = $message = $type = '';
+// Gestion des messages de confirmation ou d'erreur
+$error = $success = '';
+$prenom = $nom = $email = $message = $type = '';
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $prenom = trim($_POST["prenom"]);
-        $nom = trim($_POST["nom"]);
-        $email = trim($_POST["email"]);
-        $message = trim($_POST["message"]);
-        $type = isset($_POST["type"]) ? $_POST["type"] : '';
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $prenom = trim($_POST["prenom"]);
+    $nom = trim($_POST["nom"]);
+    $email = trim($_POST["email"]);
+    $message = trim($_POST["message"]);
+    $type = isset($_POST["type"]) ? $_POST["type"] : '';
 
-        if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
-            $error = "Veuillez remplir tous les champs du formulaire.";
+    // Vérification que tous les champs sont remplis
+    if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
+        $error = "Veuillez remplir tous les champs.";
+    } else {
+        $to = "votreadresse@example.com"; // Remplacez par votre adresse e-mail
+        $subject = "Message depuis le site BUT MMI";
+        $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
+
+        // Envoi de l'e-mail
+        if (mail($to, $subject, $body)) {
+            $success = "Votre message a bien été envoyé.";
+            $prenom = $nom = $email = $message = $type = ''; // Réinitialisation
         } else {
-            $success = "Votre message a bien été envoyé. Merci de nous avoir contactés !";
+            $error = "L'envoi du message a échoué. Veuillez réessayer.";
         }
-
     }
-     // Adresse e-mail de réception
-     $to = "votreadresse@example.com";  // Remplacez par l'adresse e-mail de réception
-     $subject = "Nouveau message depuis le formulaire de contact";
-     $email_message = "Vous avez reçu un nouveau message :\n\n";
-     $email_message .= "Prénom : $prenom\n";
-     $email_message .= "Nom : $nom\n";
-     $email_message .= "E-mail : $email\n";
-     $email_message .= "Type : $type\n";
-     $email_message .= "Message :\n$message\n";
-
-     $headers = "From: $email\r\n";
-     $headers .= "Reply-To: $email\r\n";
-
-     // Envoi du mail
-     if (mail($to, $subject, $email_message, $headers)) {
-         $success = "Votre message a bien été envoyé. Merci de nous avoir contactés !";
-    
-    // Réinitialisation des champs du formulaire après envoi
-         $prenom = $nom = $email = $message = $type = '';
-     } else {
-         $error = "Une erreur est survenue lors de l'envoi du message.";
-     }
- 
-
+}
 ?>
 
-    <?php if ($error): ?>
-        <div class="error-banner"><?php echo $error; ?></div>
-    <?php elseif ($success): ?>
-        <div class="success-banner"><?php echo $success; ?></div>
-    <?php endif; ?>
+<!-- Affichage des messages d'erreur ou de confirmation -->
+ 
+<?php if ($error): ?>
+    <div class="error-banner"><?php echo $error; ?></div>
+<?php elseif ($success): ?>
+    <div class="success-banner"><?php echo $success; ?></div>
+<?php endif; ?>
 
-    <div class="form-container">
-        <h1>Nous contacter</h1>
-        <form method="post" action="">
+<!-- Contenu principal -->
+<div class="container">
+ <section class="contact-section">
+        <h1>Plus d'infos sur la formation ? Contactez-nous !</h1>
+        <p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout.</p>
+
+        <!-- Formulaire de contact -->
+        <form method="POST" action="">
             <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
+            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>" required>
 
             <label for="nom">Nom de famille</label>
-            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
+            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>" required>
 
             <label for="email">Adresse e-mail</label>
-            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
+            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required>
 
             <label for="message">Message</label>
-            <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
+            <textarea id="message" name="message" required><?php echo htmlspecialchars($message); ?></textarea>
 
             <label>Je suis :</label>
             <div class="radio-group">
                 <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
                 <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
                 <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
-                <label><input type="radio" name="type" value="Non Precise" <?php echo ($type == 'Non Precise') ? 'checked' : ''; ?>> Je ne souhaite pas le préciser</label>
             </div>
 
             <button type="submit">ENVOYER</button>
         </form>
-    </div>
-</body>
-</html>
-            <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
-        </main>
     </section>
+
+        <h2>Nous contacter par courrier</h2>
+        <p>IUT de Cergy-Pontoise<br>
+        Département Métiers du Multimédia et de l'Internet<br>
+        34 Bis Boulevard Henri Bergson<br>
+        95200 Sarcelles</p>
 </body>
 
 <footer>
