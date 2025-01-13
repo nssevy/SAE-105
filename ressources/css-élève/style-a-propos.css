@@ -161,3 +161,9 @@ h1 {
     gap: 20px;
     /* Ajoute un espacement de 20px entre les enfants */
 }
+
+/* git pull --rebase origin main */
+/*  si jamais il y a un prblm avec le commit, cette commande applique mes commits locaux après ceux du dépôt distant*/
+
+/*git push origin main*/
+/*pousse mes changements */
