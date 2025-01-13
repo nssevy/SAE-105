@@ -1,3 +1,11 @@
+.jaune{
+    background-color: rgb(153, 187, 31);
+}
+
+.orange{
+    background-color: rgb(208, 135, 16);
+}
+
 /* Réinitialisation de base */
 body {
     font-family: 'Arial', sans-serif;
