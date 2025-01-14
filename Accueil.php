@@ -40,7 +40,6 @@
 </head>
 <body>
 <div class="container">
-        <div class="container">
         <div class="article">
             <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique"> Formation BUT MMI </a>
             <div class="article-content">
