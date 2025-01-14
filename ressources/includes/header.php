@@ -19,6 +19,10 @@
         <li>
             <a href="Contact.php">CONTACT</a>
         </li>
+
+        <li>
+            <a href="Faq.php">FAQ</a>
+        </li>
     </ul>
 </nav>
 

@@ -1,0 +1,123 @@
+/* Activer le défilement fluide */
+html {
+    scroll-behavior: smooth;
+}
+
+.marron {
+    background-color: rgba(0, 181, 224, 88);
+    /* Couleur du rond*/
+}
+
+.marronfonce {
+    background-color: rgba(0, 57, 71, 28);
+    /* Couleur du trait*/
+}
+
+.conteneur-principal {
+    display: flex;
+    width: 80rem;
+    padding: 2rem 8.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7.8125rem;
+}
+
+.conteneur-principal h1 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteneur-principal h2 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteneur-principal p {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.part-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6.25rem;
+    align-self: stretch;
+}
+
+.question-reponse {
+    display: flex;
+    width: 35.1875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.choisis-theme {
+    display: flex;
+    width: 21.5rem;
+    padding-top: 1.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    align-self: stretch;
+}
+
+.menu a {
+    color: #1482B1;
+    font-family: "Open Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Ajoute le soulignement lors du survol */
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.125rem;
+    align-self: stretch;
+}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5625rem;
+    align-self: stretch;
+}
+
+
+.frame {
+    display: flex;
+    width: 63rem;
+    align-items: flex-start;
+    gap: 6.25rem;
+}

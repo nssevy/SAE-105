@@ -18,7 +18,7 @@
                     rel="noopener noreferrer">Université CY Paris Université</a> 
                     <a class="border" href="#">Remonter</a>
                 </p>
-                <p>© 2013–2021 - BUT MMI - CY Paris Université - SAE 105</p>
+                <p>&copy; 2013–2021 - BUT MMI - CY Paris Université - SAE 105</p>
             </div>
         </div>
     </div>
