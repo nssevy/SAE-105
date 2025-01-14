@@ -40,12 +40,9 @@
 </head>
 <body>
 <div class="container">
-        <h1>Articles sur le BUT MMI</h1>
         <div class="container">
-        <h1>Articles sur le BUT MMI</h1>
         <div class="article">
             <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique"> Formation BUT MMI </a>
-            <img src="https://via.placeholder.com/800x400" alt="Développement web">
             <div class="article-content">
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes"> 
