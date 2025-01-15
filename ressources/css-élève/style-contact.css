@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .jaune {
     background-color: #FFE700;
 }

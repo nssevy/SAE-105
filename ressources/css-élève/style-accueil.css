@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .rose {
     background-color: #EF509F;
 }

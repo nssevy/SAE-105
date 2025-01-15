@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .rouge {
     background-color: rgba(235, 7, 6, 1);
     /* Couleur du rond*/
