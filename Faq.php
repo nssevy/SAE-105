@@ -35,11 +35,11 @@
                 <div class="choisis-theme">
                     <h2>Choisissez un thème :</h2>
                     <div class="menu">
-                        <a href="#index1">Sujet 1</a>
-                        <a href="#index2">Sujet 2</a>
-                        <a href="#index3">Sujet 3</a>
-                        <a href="#index4">Sujet 4</a>
-                        <a href="#index5">Sujet 5</a>
+                        <a href="#index1">Le programme est-il un programme national ?</a>
+                        <a href="#index2">Quelles sont les compétences principales du B.U.T. MMI ?</a>
+                        <a href="#index3">Quels enseignements sont proposés ?</a>
+                        <a href="#index4">Qui forme les étudiants ?</a>
+                        <a href="#index5">Combien y-a-t-il d’heures de cours ?</a>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,9 @@
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Sujet 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                        <h2>Le programme est-il un programme national ?</h2>
+                        <p>Le B.U.T. est un diplôme national.
+                        Chaque IUT peut adapter les enseignements aux enjeux locaux pour 30% du volume global.</p>
                     </div>
                 </div>
 
@@ -61,8 +62,8 @@
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Sujet 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                        <h2>Quelles sont les compétences principales du B.U.T. MMI ?</h2>
+                        <p>Le B.U.T. MMI repose sur cinq blocs de compétences principales. Tout d'abord, il permet de comprendre les enjeux de communication et les besoins des utilisateurs. Les étudiants apprennent ensuite à concevoir des produits ou des services adaptés. Ils sont également formés à exprimer des messages à travers les médias numériques et à développer des solutions pour le web et ces mêmes médias. Enfin, ce cursus encourage les étudiants à entreprendre dans le secteur du numérique.</p>
                     </div>
                 </div>
 
@@ -71,8 +72,8 @@
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Sujet 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                        <h2>Quels enseignements sont proposés ?</h2>
+                        <p>Les cinq blocs de compétences incluent divers enseignements. Par exemple, les étudiants suivent des cours sur l’ergonomie, l’audit de site web, ainsi que l’économie et la sociologie des usages. Ils approfondissent leurs connaissances en communication et marketing et explorent des domaines créatifs comme la création graphique, l’animation, l’audiovisuel et l’écriture multimédia. Sur le plan technique, ils apprennent l’intégration web, la programmation, l’hébergement et la sécurité. En outre, des enseignements en gestion de projet, création et gestion d’entreprises, et droit complètent le programme.</p>
                     </div>
                 </div>
 
@@ -81,8 +82,8 @@
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Sujet 4</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                        <h2>Qui forme les étudiants ?</h2>
+                        <p>Les étudiants bénéficient d’une formation dispensée par des équipes pluridisciplinaires. Ces équipes sont composées d’enseignants, d’enseignants-chercheurs et de professionnels du secteur du web, offrant un équilibre entre théorie et pratique.</p>
                     </div>
                 </div>
 
@@ -91,8 +92,8 @@
                     <path d="M0 1H1007" stroke="#BBBBBB"stroke-width="1.5"/>
                     </svg>
                     <div class="frame">
-                        <h2>Sujet 5</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                        <h2>Combien y-a-t-il d’heures de cours ?</h2>
+                        <p>Le B.U.T. MMI correspond à un total de 2000 heures d’enseignement et 600 heures de projet, répartis sur trois ans. Cela représente en moyenne 33 heures de cours par semaine, ce qui permet une formation intensive et complète.</p>
                     </div>
                 </div>
 

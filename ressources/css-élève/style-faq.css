@@ -16,7 +16,7 @@ html {
 .conteneur-principal {
     display: flex;
     width: 80rem;
-    padding: 2rem 8.5rem;
+    padding: 2rem 8.5rem 25rem 8.5rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 7.8125rem;
@@ -38,6 +38,8 @@ html {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 15.625rem;
+    flex-shrink: 0;
 }
 
 .conteneur-principal p {
@@ -47,6 +49,8 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 41.125rem;
+    flex-shrink: 0;
 }
 
 .part-1 {
@@ -78,7 +82,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.3125rem;
+    gap: 1rem;
     align-self: stretch;
 }
 
