@@ -63,10 +63,9 @@
 }
 
 .bulle:hover .bulle-icone-bordure {
-    transform: translate(-30px, 4px);
+  transform: translate(-30px, 4px);
 }
 
 .bulle:hover .bulle-icone {
-    transform: translate(22px, 6px);
+  transform: translate(22px, 6px);
 }
-

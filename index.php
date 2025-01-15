@@ -30,21 +30,12 @@
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
             <h1 class="titre-page">Articles sur le BUT MMI</h1>
-            <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Développement Web</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-        <div class="article">
-            <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique"> Formation BUT MMI </a>
-            <div class="article-content">
+
+            <section class="colonne">
+                <section class="liste-articles">
+                    <p>METTEZ VOS ARTICLES A L'INTERIEUR DE LA BALISE ".liste-articles" tout en supprimant cette balise &lt;p></p>
                 </section>
-                <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes"> 
+                <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
                     
                     <section class="textes">
@@ -58,7 +49,6 @@
                 </a>
             </section>
         </main>
-       
 
     </section>
 </body>
