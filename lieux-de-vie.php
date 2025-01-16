@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
     <link rel="stylesheet" href="lieu-de-vie-css/css/ne-pas-modifier/header.css">
     <link rel="stylesheet" href="lieu-de-vie-css/css/ne-pas-modifier/lieux-de-vie.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
 </head>
 
 <body>
@@ -80,6 +81,10 @@
 
             </section>
         </main>
+
+        <footer>
+            <?php require_once('./ressources/includes/footer.php'); ?>
+        </footer>
     </section>
 </body>
 </html>
