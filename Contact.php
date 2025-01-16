@@ -107,13 +107,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
 
     <!-- Pied de form -->
-
+     
+    <div class="courrier">
         <h1>Nous contacter par courrier</h1><br>
 
         <p class="texte">IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
         95200 Sarcelles</p>
+    </div>
+
     </main>
     <footer>
         <?php require_once('./ressources/includes/footer.php'); ?>
