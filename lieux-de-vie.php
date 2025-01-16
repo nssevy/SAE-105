@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIEUX DE VIE | BUT MMI</title>
 
-    <link rel="stylesheet" href="ressources/CSS-Lieux-de-vie/reset.css">
-    <link rel="stylesheet" href="ressources/CSS-Lieux-de-vie/fonts.css">
-    <link rel="stylesheet" href="ressources/CSS-Lieux-de-vie/global.css">
-    <link rel="stylesheet" href="ressources/CSS-Lieux-de-vie/header.css">
-    <link rel="stylesheet" href="ressources/CSS-Lieux-de-vie/lieux-de-vie.css">
+    <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-reset.css">
+    <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
+    <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
+    <link rel="stylesheet" href="lieu-de-vie-css/css/ne-pas-modifier/header.css">
+    <link rel="stylesheet" href="lieu-de-vie-css/css/ne-pas-modifier/lieux-de-vie.css">
 </head>
 
 <body>
