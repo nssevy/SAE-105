@@ -18,9 +18,9 @@ body {
     color: #333;
 }
 
-.container {
+.bloc-texte {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 20px;
 }
 
