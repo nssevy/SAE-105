@@ -34,10 +34,12 @@ $prenom = $nom = $email = $message = $type = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $prenom = trim($_POST["prenom"]);
     $nom = trim($_POST["nom"]);
+    $email = trim($_POST["email"]);
+    $message = trim($_POST["message"]);
     $type = isset($_POST["type"]) ? $_POST["type"] : '';
 
     // Vérification que tous les champs sont remplis
-    if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
+    if (empty($prenom) || empty($nom) || empty($type)) {
         $error = "Veuillez remplir tous les champs.";
     } else {
         $to = "fily.toure3@etu.cyu.fr"; // adresse de reception deds messages
