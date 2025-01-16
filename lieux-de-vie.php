@@ -1,5 +1,6 @@
 <?php
-    $couleur_bulle_classe = "noir";
+    $couleur_bulle_classe = "bleu";
+    $couleur_bordure_classe ="gris";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
