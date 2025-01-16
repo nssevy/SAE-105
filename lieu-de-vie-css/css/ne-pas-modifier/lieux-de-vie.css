@@ -29,9 +29,9 @@ h1 {
     gap: 20px;
 }
 
-.image-gauche, .image-droite {
-    width: 45%;
-    height: 250px;
+.image {
+    width: 522px;
+    height: 435px;
     object-fit: cover;
     margin-bottom: 10px;
 }
