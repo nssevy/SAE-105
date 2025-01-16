@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
     font-weight: bold;
@@ -47,7 +47,7 @@ p .texte{
     font-size: 1.3rem;
 }
 
-span .gras{
+p span .gras{
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
     font-size: 1.3rem;
