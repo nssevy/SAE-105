@@ -25,9 +25,7 @@
 
         <main class="conteneur-principal">
             <h1 class="titre-page">Lieux de vie</h1>
-
             <section class="ldv">
-
                 <section class="description, box">
                     <p>
                         Entre les cours, l'université et ses IUT proposent de nombreux lieux de convivialité ou 
@@ -35,7 +33,6 @@
                         de nouveaux horizons et surtout de rencontrer les étudiants d'autres BUT.
                     </p>
                 </section>
-                <br>
                 <section class="bibliothèque, box">
                     <div class="contenu">
                     <img src="ressources/images/bu.jpg" alt="Bibliothèque universitaire" class="image">
@@ -49,7 +46,6 @@
                         </div>
                     </div>
                 </section>
-                <br>
                 <section class="restauration, box">
                     <div class="contenu">
                         <div class="texte">
@@ -63,7 +59,6 @@
                         <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                     </div>
                 </section>
-                <br>
                 <section class="fablabs, box">
                     <div class="contenu">
                     <img src="ressources/images/fablabs.jpg" alt="Réseau des fablabs de CY Cergy Paris Université" class="image">
@@ -78,10 +73,8 @@
                         </div>
                     </div>
                 </section>
-
             </section>
         </main>
-
         <footer>
             <?php require_once('./ressources/includes/footer.php'); ?>
         </footer>

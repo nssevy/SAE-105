@@ -19,8 +19,8 @@ h1 {
 }
 
 .box p {
-    font-size: 1rem;
     line-height: 1.5;
+    font-size: 2rem;
 }
 
 .contenu {
@@ -35,10 +35,6 @@ h1 {
     height: 435px;
     object-fit: cover;
     margin-bottom: 10px;
-}
-
-.texte {
-    width: 100%;
 }
 
 .bulle-icone.bleu {
