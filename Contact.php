@@ -39,10 +39,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $type = isset($_POST["type"]) ? $_POST["type"] : '';
 
     // Vérification que tous les champs sont remplis
-    if (empty($prenom) || empty($nom) || empty($type)) {
+    if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
         $error = "Veuillez remplir tous les champs.";
     } else {
-        $to = "fily.toure3@etu.cyu.fr"; // adresse de reception deds messages
+        $to = "fily.toure3@etu.cyu.fr"; // adresse de reception des messages
         $subject = "Message depuis le site BUT MMI";
         $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
 
