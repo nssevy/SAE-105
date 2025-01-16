@@ -50,11 +50,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (mail($to, $subject, $body)) {
             $success = "Votre message a bien été envoyé.";
             $prenom = $nom = $email = $message = $type = ''; // Réinitialisation
-        }
-        else {
+        } else {
             $error = "L'envoi du message a échoué. Veuillez réessayer.";
-            ?><?php if ($error): ?>
-    <div class="error-banner"><?php echo $error; ?></div>
+        }
+    }
+}
+?>
 
 <!-- Affichage des messages d'erreur ou de confirmation -->
 
