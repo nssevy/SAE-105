@@ -14,7 +14,7 @@ h1 {
     color: #333;
     font-weight: bold;
     font-size: 2rem;
-    vertical-align: top;
+    align-items: flex-start;
 
 }
 
