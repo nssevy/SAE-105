@@ -42,10 +42,6 @@ h1 {
     max-width: 50%;
 }
 
-span {
-    font-weight: bold;
-}
-
 .bulle-icone.bleu {
     background-color: #012a37;
 }
@@ -56,4 +52,5 @@ span {
 
 h3 {
     margin-top: 1rem;
+    font-weight: bold;
 }
