@@ -65,16 +65,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php endif; ?>
 
 <!-- Contenu principal en tête -->
- <div class="phrase-présentation">
 
 <h1>Plus d'infos sur la formation ? </h1>
 <br>
 <h2>Contactez-nous !<h2>
 <br>
-<p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
-    Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</p>
 
-</div>
+<p><span>La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
+    <span>Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span></p>
+
 
 <h3>Nous contacter en ligne</h3>
 
@@ -101,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
          
                 </div>
-            <button type="submit">ENVOYER</button>
+            <button type="submit">ENVOYER</button><br>
         </form>
       
 
