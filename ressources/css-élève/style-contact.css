@@ -21,7 +21,6 @@ body {
 .bloc-texte {
     max-width: 800px;
     margin-left: 0px ;
-    padding: 20px;
 }
 
 /* En-tête */
@@ -41,10 +40,14 @@ h1 {
     font-weight: bold;
 }
 
-p .texte{
+.texte{
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
-    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.en-ligne{
+    padding-top: 20px;
 }
 
 .gras{
@@ -107,6 +110,12 @@ button:hover {
     background-color: #0056b3;
 }
 
+/*Contacter par courrier */
+.courrier {
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
 /* Bannières messages d'envoi et d'erreur */
 .success-banner {
     background-color: #d4edda;
@@ -128,12 +137,5 @@ button:hover {
     text-align: center;
     border-radius: 5px;
     font-size: 1.25rem;
-}
-
-/*Pied de page*/
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
 }
 

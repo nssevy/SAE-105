@@ -5,7 +5,7 @@ h1 {
 
 .box {
     border: 2px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
     border-radius: 8px;
 }
 
@@ -19,8 +19,8 @@ h1 {
 }
 
 .box p {
-    font-size: 1rem;
     line-height: 1.5;
+    font-size: 1.3rem;
 }
 
 .contenu {
@@ -37,19 +37,16 @@ h1 {
     margin-bottom: 10px;
 }
 
-.texte {
-    width: 100%;
-    max-width: 50%;
-}
-
-span {
-    font-weight: bold;
-}
-
 .bulle-icone.bleu {
     background-color: #012a37;
 }
 
 .bulle-icone-bordure.gris {
     background-color: #c9c9c9;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
 }

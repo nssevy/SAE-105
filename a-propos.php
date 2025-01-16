@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
     <link rel="stylesheet" href="ressources/css-élève/style-a-propos.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-header-eleve.css?v=<?php echo time(); ?>"">
     
 </head>
 

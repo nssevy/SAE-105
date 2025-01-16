@@ -25,9 +25,7 @@
 
         <main class="conteneur-principal">
             <h1 class="titre-page">Lieux de vie</h1>
-
             <section class="ldv">
-
                 <section class="description, box">
                     <p>
                         Entre les cours, l'université et ses IUT proposent de nombreux lieux de convivialité ou 
@@ -35,7 +33,6 @@
                         de nouveaux horizons et surtout de rencontrer les étudiants d'autres BUT.
                     </p>
                 </section>
-                <br>
                 <section class="bibliothèque, box">
                     <div class="contenu">
                     <img src="ressources/images/bu.jpg" alt="Bibliothèque universitaire" class="image">
@@ -49,7 +46,6 @@
                         </div>
                     </div>
                 </section>
-                <br>
                 <section class="restauration, box">
                     <div class="contenu">
                         <div class="texte">
@@ -57,14 +53,12 @@
                             <p>
                                 Les restaurants du CROUS vous permettent de déjeuner pour un tarif social, fixé au plus à 3,30€. 
                                 Pour bénéficier de ce tarif il vous suffit de présenter votre carte d'étudiant multiservices.
-                                <br>
-                                <span>Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.</span>
                             </p>
+                            <h3>Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.</h3>
                         </div>
                         <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                     </div>
                 </section>
-                <br>
                 <section class="fablabs, box">
                     <div class="contenu">
                     <img src="ressources/images/fablabs.jpg" alt="Réseau des fablabs de CY Cergy Paris Université" class="image">
@@ -79,10 +73,8 @@
                         </div>
                     </div>
                 </section>
-
             </section>
         </main>
-
         <footer>
             <?php require_once('./ressources/includes/footer.php'); ?>
         </footer>
