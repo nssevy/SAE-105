@@ -64,15 +64,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="success-banner"><?php echo $success; ?></div>
 <?php endif; ?>
 
-<!-- Contenu principal -->
+<!-- Contenu principal en tête -->
  <div class="phrase présentation">
 
 <h1>Plus d'infos sur la formation ? </h1>
+<br>
 <h2>Contactez-nous !<h2>
-<p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
-    Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</p>
+<br>
+<h3>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
+    Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</h3>
 
 </div>
+
+<h4>Nous contacter en ligne</h4>
 
 <div class="container">
  <section class="contact-section">
@@ -101,11 +105,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
     </section>
 
-        <h2>Nous contacter par courrier</h2>
-        <p>IUT de Cergy-Pontoise<br>
+        <h5>Nous contacter par courrier<br>
+        IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
-        95200 Sarcelles</p>
+        95200 Sarcelles</h()>
 </body>
 
 <footer>
