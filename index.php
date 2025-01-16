@@ -33,9 +33,9 @@
 
             <section class="colonne">
                 <section class="liste-articles">
-                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme </a> 
-                    <img src="ressources/images/BUT-MMI-1.png
-
+                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme 
+                    <img src="ressources/images/BUT-MMI-1.png" >
+                    </a> 
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
