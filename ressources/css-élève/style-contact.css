@@ -20,7 +20,7 @@ body {
 
 .bloc-texte {
     max-width: 800px;
-    margin-left: 0 ;
+    margin-left: 0px ;
     padding: 20px;
 }
 
@@ -28,6 +28,10 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.phrase-présentation{
+    margin-left: 0px;
 }
 
 h1 {
@@ -43,21 +47,17 @@ h2 {
 }
 
 h3{
-    font-size: 1.3rem;
-    font-family: open;
-}
-
-h4{
-    font-size: 2rem;
-    font-family: open ;
-    font-weight: bold;
-}
-
-h5{
     font-size: 2rem;
     font-family: open;
     font-weight: bold;   
 }
+
+h4{
+    font-size: 2rem;
+    font-family: open;
+    font-weight: bold;   
+}
+
 
 /* Section Contact */
 .contact-section {
@@ -114,7 +114,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Bannières de confirmation et d'erreur */
+/* Bannières messages d'envoi et d'erreur */
 .success-banner {
     background-color: #d4edda;
     color: #155724;
@@ -131,11 +131,4 @@ button:hover {
     margin: 10px 0;
     border: 1px solid #f5c6cb;
     border-radius: 5px;
-}
-
-/* Pied de page */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
 }

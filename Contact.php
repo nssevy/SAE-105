@@ -65,21 +65,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php endif; ?>
 
 <!-- Contenu principal en tête -->
- <div class="phrase présentation">
+ <div class="phrase-présentation">
 
 <h1>Plus d'infos sur la formation ? </h1>
 <br>
 <h2>Contactez-nous !<h2>
 <br>
-<h3>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
-    Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</h3>
+<p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
+    Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</p>
 
 </div>
 
-<h4>Nous contacter en ligne</h4>
+<h3>Nous contacter en ligne</h3>
 
 <div class="bloc-texte">
- <section class="contact-section">
+
         <!-- Formulaire de contact -->
         <form method="POST" action="">
             <label for="prenom">Prénom</label>
@@ -99,14 +99,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
                 <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
                 <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
-            </div>
+         
 
             <button type="submit">ENVOYER</button>
         </form>
-    </section>
+        </div>
 
     <!-- Pied de form -->
-        <h5>Nous contacter par courrier</h5><br>
+
+        <h4>Nous contacter par courrier</h4><br>
+
         <p>IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
