@@ -33,8 +33,9 @@
 
             <section class="colonne">
                 <section class="liste-articles">
-                    <p>METTEZ VOS ARTICLES A L'INTERIEUR DE LA BALISE ".liste-articles" tout en supprimant cette balise &lt;p></p>
-                    <img src="BUT-MMI-1.png" alt""">
+                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme </a> 
+                    <img src="ressources/images/BUT-MMI-1.png
+
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
