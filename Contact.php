@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <h4>Nous contacter en ligne</h4>
 
-<div class="container">
+<div class="bloc-texte">
  <section class="contact-section">
         <!-- Formulaire de contact -->
         <form method="POST" action="">
