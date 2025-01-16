@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <p class="texte"> <span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
     <span class="gras">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span></p>
-<br>
+
 
 
 <h1>Nous contacter en ligne</h1><br>
@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
 
     <!-- Pied de form -->
-     
+
     <div class="courrier">
         <h1>Nous contacter par courrier</h1><br>
 
