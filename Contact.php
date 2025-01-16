@@ -25,6 +25,7 @@
         
         ?>
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
+         <main>
         <?php
 // Gestion des messages de confirmation ou d'erreur
 $error = $success = '';
@@ -41,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
         $error = "Veuillez remplir tous les champs.";
     } else {
-        $to = "tfily954@gmail.com"; // Remplacez par votre adresse e-mail
+        $to = "fily.toure3@etu-cyu.fr"; // Remplacez par votre adresse e-mail
         $subject = "Message depuis le site BUT MMI";
         $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
 
@@ -113,10 +114,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
         95200 Sarcelles</p>
+    </main>
+    <footer>
+        <?php require_once('./ressources/includes/footer.php'); ?>
+    </footer>
 </body>
-
-<footer>
-    <?php require_once('./ressources/includes/footer.php'); ?>
-</footer>
 
 </html>
