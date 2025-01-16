@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-reset.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
-    <link rel="stylesheet" href="lieu-de-vie-css/css/ne-pas-modifier/header.css">
+    <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
     <link rel="stylesheet" href="lieu-de-vie-css/css/ne-pas-modifier/lieux-de-vie.css">
+    <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
 </head>
 
 <body>
@@ -50,17 +51,16 @@
                 <br>
                 <section class="restauration, box">
                     <div class="contenu">
-                    <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                         <div class="texte">
                             <h2>Se restaurer</h2>
                             <p>
                                 Les restaurants du CROUS vous permettent de déjeuner pour un tarif social, fixé au plus à 3,30€. 
                                 Pour bénéficier de ce tarif il vous suffit de présenter votre carte d'étudiant multiservices.
-                            </p>
-                            <p>
-                                Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.
+                                <br>
+                                <span>Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.</span>
                             </p>
                         </div>
+                        <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                     </div>
                 </section>
                 <br>
@@ -81,6 +81,10 @@
 
             </section>
         </main>
+
+        <footer>
+            <?php require_once('./ressources/includes/footer.php'); ?>
+        </footer>
     </section>
 </body>
 </html>

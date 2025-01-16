@@ -65,21 +65,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php endif; ?>
 
 <!-- Contenu principal en tête -->
- <div class="phrase présentation">
 
 <h1>Plus d'infos sur la formation ? </h1>
 <br>
-<h2>Contactez-nous !<h2>
+<h1>Contactez-nous !</h1>
 <br>
-<h3>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
-    Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</h3>
 
-</div>
+<p class="text">
+    <span class="grass">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. <span class="grass">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span>
+</p>
 
-<h4>Nous contacter en ligne</h4>
+<p class="texte"> <span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
+    <span class="gras">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span></p>
+<br>
+
+
+<h1>Nous contacter en ligne</h1>
 
 <div class="bloc-texte">
- <section class="contact-section">
+
         <!-- Formulaire de contact -->
         <form method="POST" action="">
             <label for="prenom">Prénom</label>
@@ -99,15 +103,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
                 <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
                 <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
-            </div>
-
-            <button type="submit">ENVOYER</button>
+         
+                </div>
+            <button type="submit">ENVOYER</button><br>
         </form>
-    </section>
+      
 
     <!-- Pied de form -->
-        <h5>Nous contacter par courrier</h5><br>
-        <p>IUT de Cergy-Pontoise<br>
+
+        <h1>Nous contacter par courrier</h1><br>
+
+        <p class="texte">IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
         95200 Sarcelles</p>

@@ -12,7 +12,7 @@ html {
 
 /* Réinitialisation de base */
 body {
-    margin: 0;
+    margin-left: 0;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
@@ -20,7 +20,7 @@ body {
 
 .bloc-texte {
     max-width: 800px;
-    margin: 0 ;
+    margin-left: 0px ;
     padding: 20px;
 }
 
@@ -30,34 +30,30 @@ header {
     margin-bottom: 20px;
 }
 
+.phrase-présentation{
+    margin-left: 0px;
+}
+
 h1 {
-    font-size: 2rem;
-    font-family: open ;
+    font-size: 1.8rem;
+    font: 'open sans'; 
+    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
     font-weight: bold;
 }
 
-h2 {
-    font-size: 2rem;
-    font-family: open;
+p .texte{
+    font: 'open sans'; 
+    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-size: 1.4rem;
+}
+
+span .gras{
+    font: 'open sans'; 
+    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
-h3{
-    font-size: 1.3rem;
-    font-family: open;
-}
-
-h4{
-    font-size: 2rem;
-    font-family: open ;
-    font-weight: bold;
-}
-
-h5{
-    font-size: 2rem;
-    font-family: open;
-    font-weight: bold;   
-}
 
 /* Section Contact */
 .contact-section {
@@ -88,6 +84,7 @@ textarea {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-left: 0;
 }
 
 textarea {
@@ -113,28 +110,37 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Bannières de confirmation et d'erreur */
+/* Bannières messages d'envoi et d'erreur */
 .success-banner {
     background-color: #d4edda;
     color: #155724;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1.25rem ;
+    margin: 1rem 0;
     border: 1px solid #c3e6cb;
+    text-align: center;
     border-radius: 5px;
+    font-size: 1.25rem;
 }
 
 .error-banner {
     background-color: #f8d7da;
     color: #721c24;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1.25rem ;
+    margin: 1rem 0;
     border: 1px solid #f5c6cb;
+    text-align: center;
     border-radius: 5px;
+    font-size: 1.25rem;
 }
 
-/* Pied de page */
+/*Pied de page*/
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+}
+
+.grass {
+    font-weight: bold;
+    /* Texte en gras */
 }
