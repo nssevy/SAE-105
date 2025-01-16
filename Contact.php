@@ -115,4 +115,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         95200 Sarcelles</p>
 </body>
 
+<footer>
+    <?php require_once('./ressources/includes/footer.php'); ?>
+</footer>
+
 </html>
