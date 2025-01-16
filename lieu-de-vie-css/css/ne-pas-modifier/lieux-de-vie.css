@@ -47,9 +47,9 @@ span {
 }
 
 .bulle-icone.noir {
-    background-color: rgba(4, 2, 36, 0.87);
+    background-color: #012a37;
 }
 
 .bulle-icone-bordure.noir {
-    background-color: rgb(8, 14, 65);
+    background-color: #c9c9c9;
 }
