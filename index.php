@@ -35,6 +35,7 @@
                 <section class="liste-articles"> 
                     <div class="contenu">
                     <img src="ressources/images/BUT-MMI-1.png" >
+                    <div class="lien">
                     <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme
                     </a> 
                 </section>
