@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
         $error = "Veuillez remplir tous les champs.";
     } else {
-        $to = "votreadresse@example.com"; // Remplacez par votre adresse e-mail
+        $to = "tfily954@gmail.com"; // Remplacez par votre adresse e-mail
         $subject = "Message depuis le site BUT MMI";
         $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
 
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <br>
 
 
-<h1>Nous contacter en ligne</h1>
+<h1>Nous contacter en ligne</h1><br>
 
 <div class="bloc-texte">
 
