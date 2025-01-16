@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUR-LES-MEDIAS</title>
-
+    
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-reset.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-global.css">
@@ -24,30 +24,32 @@
         <?php require_once('./ressources/includes/header.php'); ?>
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
-        <main class="conteneur-principal">
-            <div class="title"; >
+        <main class="conteneur-principal"> 
+            <div class="title"; ><!-- Section pour le titre de la page avec class pour la marge droite-->
                  <h1 class="titre-page">Les actualités et les événements important du BUT et de l'IUT de CY Paris Université dans les médias</h1>
             </div>
 
-            <div class="espace-bas">
+            <div class="espace-bas"> <!-- Section contenant les vidéos avec des marges inférieures -->
+             <!-- Bloc pour les deux premières vidéos -->
                 <div class="deux-video">
-                    <div class="espace-droite">
+                    <div class="espace-droite"><!-- Vidéo avec un espacement à droite -->
                         <p>La nouvelle réforme : le BUT MMI</p>      
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/oiEbQF7qfBU?si=BLmDt5_pcFcl7PUW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-                    </div>
-                    <div>
-                        <p>Pourquoi étudier à l'IUT CYU ?</p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SyjF4h2Zb7Q?si=ZcN3SMAYFbwpsZVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
                 </div>
 
-                <div class="deux-video">
-                    <div class="espace-droite">
+                <div><!-- Deuxième vidéo -->
+                        <p>Pourquoi étudier à l'IUT CYU ?</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SyjF4h2Zb7Q?si=ZcN3SMAYFbwpsZVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- Bloc pour deux autres vidéos -->
+             <div class="deux-video">
+                    <div class="espace-droite"><!-- Vidéo avec un espacement à droite -->
                         <p>Job interview en anglais au département MMI</p>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/t72pdxpNjyc?si=PUuuYTZ59-Ha7KQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
-                    <div>
+                    <div><!-- Deuxième vidéo -->
                         <p>L'importance de l'IUT dans les études supérieures</p>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/xD4wshE0hEg?si=mxwbBnHgHfFR-P8X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
@@ -60,7 +62,7 @@
     </section>
 </body>
 
-<footer>
+<footer><!-- pied de page -->
     <?php require_once('./ressources/includes/footer.php'); ?>
 </footer>
 
