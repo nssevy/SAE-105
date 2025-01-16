@@ -50,7 +50,6 @@
                 <br>
                 <section class="restauration, box">
                     <div class="contenu">
-                    
                         <div class="texte">
                             <h2>Se restaurer</h2>
                             <p>
