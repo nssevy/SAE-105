@@ -19,11 +19,6 @@ html {
     margin-top: 1rem;
 }
 
-.contenu:hover {
-    text-decoration: none;
-    text-decoration-line: none;
-}
-
 .lien {
     max-width: 100%;
     height: auto;
@@ -31,4 +26,9 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;  
     margin-bottom: 1rem;
+}
+
+.lien:hover {
+    text-decoration: none;
+    text-decoration-line: none;
 }
