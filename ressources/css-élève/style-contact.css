@@ -44,8 +44,11 @@ p .texte{
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
     font-size: 1.4rem;
-    line-height: 1.15;
-    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+.haut-du-form{
+    padding-bottom: 20px;
 }
 
 .gras{
@@ -111,6 +114,7 @@ button:hover {
 /*Contacter par courrier */
 .courrier {
     padding-top: 15px;
+    line-height: 1.5;
 }
 
 /* Bannières messages d'envoi et d'erreur */
