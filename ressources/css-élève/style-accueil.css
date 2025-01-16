@@ -19,6 +19,11 @@ html {
     margin-top: 1rem;
 }
 
+.contenu:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 .lien {
     max-width: 100%;
     height: auto;
