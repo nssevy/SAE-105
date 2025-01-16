@@ -100,10 +100,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
                 <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
          
-
+                </div>
             <button type="submit">ENVOYER</button>
         </form>
-        </div>
+      
 
     <!-- Pied de form -->
 
