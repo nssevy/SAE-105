@@ -54,13 +54,13 @@ h4{
 }
 
 h5{
-    font-size: 1.3rem;
-    font-family: open;   
+    font-size: 2rem;
+    font-family: open;
+    font-weight: bold;   
 }
 
 /* Section Contact */
 .contact-section {
-    background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
 }

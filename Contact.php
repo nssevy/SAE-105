@@ -105,11 +105,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
     </section>
 
-        <h5>Nous contacter par courrier<br>
-        IUT de Cergy-Pontoise<br>
+    <!-- Pied de form -->
+        <h5>Nous contacter par courrier</h5><br>
+        <p>IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
-        95200 Sarcelles</h()>
+        95200 Sarcelles</p>
 </body>
 
 <footer>
