@@ -46,10 +46,10 @@ span {
     font-weight: bold;
 }
 
-.bulle-icone.noir {
+.bulle-icone.bleu {
     background-color: #012a37;
 }
 
-.bulle-icone-bordure.noir {
+.bulle-icone-bordure.gris {
     background-color: #c9c9c9;
 }
