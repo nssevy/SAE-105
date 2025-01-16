@@ -26,6 +26,7 @@
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
             <h1 class="titre-page">TITRE DE PAGE A REMPLACER !!!</h1>
+            <p>oui</p>
 
             <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>
