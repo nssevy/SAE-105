@@ -57,9 +57,8 @@
                             <p>
                                 Les restaurants du CROUS vous permettent de déjeuner pour un tarif social, fixé au plus à 3,30€. 
                                 Pour bénéficier de ce tarif il vous suffit de présenter votre carte d'étudiant multiservices.
-                                <br>
-                                <span>Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.</span>
                             </p>
+                            <h3>Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.</h3>
                         </div>
                         <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                     </div>
