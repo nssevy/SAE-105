@@ -64,15 +64,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="success-banner"><?php echo $success; ?></div>
 <?php endif; ?>
 
-<!-- Contenu principal -->
+<!-- Contenu principal en tête -->
  <div class="phrase présentation">
 
 <h1>Plus d'infos sur la formation ? </h1>
+<br>
 <h2>Contactez-nous !<h2>
+<br>
 <p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
     Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</p>
 
 </div>
+
+<p class="sous-titre-form">Nous contacter en ligne</p>
 
 <div class="container">
  <section class="contact-section">
@@ -101,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
     </section>
 
-        <h2>Nous contacter par courrier</h2>
+        <h3>Nous contacter par courrier</h3>
         <p>IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
