@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
         $error = "Veuillez remplir tous les champs.";
     } else {
-        $to = "fily.toure3@etu.cyu.fr"; // adresse de reception deds messages
+        $to = "fily.toure3@etu.cyu.fr"; // adresse de reception des messages
         $subject = "Message depuis le site BUT MMI";
         $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
 
@@ -50,11 +50,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (mail($to, $subject, $body)) {
             $success = "Votre message a bien été envoyé.";
             $prenom = $nom = $email = $message = $type = ''; // Réinitialisation
-        }
-        else {
+        } else {
             $error = "L'envoi du message a échoué. Veuillez réessayer.";
-            ?><?php if ($error): ?>
-    <div class="error-banner"><?php echo $error; ?></div>
+        }
+    }
+}
+?>
 
 <!-- Affichage des messages d'erreur ou de confirmation -->
 
