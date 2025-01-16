@@ -71,7 +71,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <h1>Contactez-nous !</h1>
 <br>
 
-<p class="texte"><span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
+<p class="text">
+    <span class="grass">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. <span class="grass">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span>
+</p>
+
+<p class="texte"> <span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
     <span class="gras">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span></p>
 <br>
 
