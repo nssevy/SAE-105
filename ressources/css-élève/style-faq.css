@@ -16,7 +16,7 @@ html {
 .conteneur-principal {
     display: flex;
     width: 80rem;
-    padding: 2rem 8.5rem 25rem 8.5rem;
+    padding: 2rem 8.5rem 20rem 8.5rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 7.8125rem;
@@ -38,7 +38,7 @@ html {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 15.625rem;
+    width: 30rem;
     flex-shrink: 0;
 }
 
@@ -49,7 +49,7 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 41.125rem;
+    width: 28rem;
     flex-shrink: 0;
 }
 
