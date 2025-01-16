@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <h1>Plus d'infos sur la formation ? </h1>
 <br>
-<h1>Contactez-nous !<h1>
+<h1>Contactez-nous !</h1>
 <br>
 
 <p class="texte"><span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
