@@ -50,7 +50,6 @@
                 <br>
                 <section class="restauration, box">
                     <div class="contenu">
-                    <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                         <div class="texte">
                             <h2>Se restaurer</h2>
                             <p>
@@ -61,6 +60,7 @@
                                 Si vous êtes étudiant boursier, vous bénéficiez automatiquement du repas à 1€ lors du passage en caisse.
                             </p>
                         </div>
+                        <img src="ressources/images/restauration.jpg" alt="Se restaurer" class="image">
                     </div>
                 </section>
                 <br>
