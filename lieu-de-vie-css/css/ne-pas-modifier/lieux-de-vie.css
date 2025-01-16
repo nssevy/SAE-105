@@ -1,6 +1,6 @@
 h1 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .box {
@@ -12,7 +12,7 @@ h1 {
 .box h2 {
     color: #333;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
     align-items: flex-start;
     margin-bottom: 1rem;
 
