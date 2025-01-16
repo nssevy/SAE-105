@@ -36,7 +36,7 @@
                 <br>
                 <section class="bibliothèque, box">
                     <div class="contenu">
-                    <img src="ressources/images/bu.webp" alt="Bibliothèque universitaire">
+                    <img src="ressources/images/bu.jpg" alt="Bibliothèque universitaire">
                         <div class="texte">
                             <h2>Bibliothèque universitaire</h2>
                             <p>
@@ -50,7 +50,7 @@
                 <br>
                 <section class="restauration, box">
                     <div class="contenu">
-                    <img src="ressources/images/restauration.webp" alt="Se restaurer">
+                    <img src="ressources/images/restauration.jpg" alt="Se restaurer">
                         <div class="texte">
                             <h2>Se restaurer</h2>
                             <p>
@@ -66,7 +66,7 @@
                 <br>
                 <section class="fablabs, box">
                     <div class="contenu">
-                    <img src="ressources/images/fablabs.webp" alt="Réseau des fablabs de CY Cergy Paris Université">
+                    <img src="ressources/images/fablabs.jpg" alt="Réseau des fablabs de CY Cergy Paris Université">
                         <div class="texte">
                             <h2>Réseau des fablabs de CY Cergy Paris Université</h2>
                             <p>
