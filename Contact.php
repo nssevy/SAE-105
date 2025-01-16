@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!-- Affichage des messages d'erreur ou de confirmation -->
- 
+
 <?php if ($error): ?>
     <div class="error-banner"><?php echo $error; ?></div>
 <?php elseif ($success): ?>
@@ -65,11 +65,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php endif; ?>
 
 <!-- Contenu principal -->
+<h1>Plus d'infos sur la formation ? Contactez-nous !</h1>
+<p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dasn cette formation pluridisciplinaire. Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</p>
 <div class="container">
  <section class="contact-section">
-        <h1>Plus d'infos sur la formation ? Contactez-nous !</h1>
-        <p>La formation s'ouvre à tous les bacheliers. Avoir des connaissances en programmation, design ou audiovisuel est un atout.</p>
-
         <!-- Formulaire de contact -->
         <form method="POST" action="">
             <label for="prenom">Prénom</label>
