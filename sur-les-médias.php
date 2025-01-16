@@ -25,8 +25,35 @@
 
         <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
         <main class="conteneur-principal">
-            <h1 class="titre-page">TITRE DE PAGE A REMPLACER !!!</h1>
-            <p>oui</p>
+            <div class="title"; >
+                 <h1 class="titre-page">Les actualités et les événements important du BUT et de l'IUT de CY Paris Université dans les médias</h1>
+            </div>
+
+            <div class="espace-bas">
+                <div class="deux-video">
+                    <div class="espace-droite">
+                        <p>La nouvelle réforme : le BUT MMI</p>      
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oiEbQF7qfBU?si=BLmDt5_pcFcl7PUW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                    </div>
+                    <div>
+                        <p>Pourquoi étudier à l'IUT CYU ?</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SyjF4h2Zb7Q?si=ZcN3SMAYFbwpsZVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="deux-video">
+                    <div class="espace-droite">
+                        <p>Job interview en anglais au département MMI</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t72pdxpNjyc?si=PUuuYTZ59-Ha7KQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div>
+                        <p>L'importance de l'IUT dans les études supérieures</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xD4wshE0hEg?si=mxwbBnHgHfFR-P8X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        
 
             <!-- à continuer ici. Mettre le code respectif de chaque page ici -->
         </main>

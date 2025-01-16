@@ -11,3 +11,21 @@ html {
     background-color: rgba(165, 2, 83, 1);
     /* Couleur du rond*/
 }
+
+.conteneur-principal {}
+
+.deux-video {
+    display: flex;
+}
+
+.espace-droite {
+    padding-right: 5rem;
+}
+
+.espace-bas {
+    padding-bottom: 10rem;
+}
+
+.title {
+    margin-right: 27rem;
+}
