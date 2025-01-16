@@ -45,3 +45,11 @@ h1 {
 span {
     font-weight: bold;
 }
+
+.bulle-icone.noir {
+    background-color: black;
+}
+
+.bulle-iconee-bordure.noir {
+    background-color: black;
+}
