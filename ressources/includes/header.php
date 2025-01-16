@@ -24,7 +24,6 @@
             <a href="Faq.php">FAQ</a>
         </li>
     </ul>
-    <p>Oui</p>
 </nav>
 
 <header class="bulle">

@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
         $error = "Veuillez remplir tous les champs.";
     } else {
-        $to = "fily.toure3@etu-cyu.fr"; // Remplacez par votre adresse e-mail
+        $to = "fily.toure3@etu.cyu.fr"; // Remplacez par votre adresse e-mail
         $subject = "Message depuis le site BUT MMI";
         $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
 
@@ -72,9 +72,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <h1>Contactez-nous !</h1>
 <br>
 
+<div class="haut-du-form">
 <p class="texte"> <span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
     <span class="gras">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span></p>
-<br>
+</div>
 
 
 <h1>Nous contacter en ligne</h1><br>
@@ -108,12 +109,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Pied de form -->
 
+    <div class="courrier">
         <h1>Nous contacter par courrier</h1><br>
 
         <p class="texte">IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
         95200 Sarcelles</p>
+    </div>
+
     </main>
     <footer>
         <?php require_once('./ressources/includes/footer.php'); ?>
