@@ -43,7 +43,6 @@ h1 {
 .texte{
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
-    font-size: 1.4rem;
     line-height: 1.5;
 }
 
