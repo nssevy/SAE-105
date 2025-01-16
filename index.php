@@ -32,9 +32,10 @@
             <h1 class="titre-page">Articles sur le BUT MMI</h1>
 
             <section class="colonne">
-                <section class="liste-articles">
-                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme 
+                <section class="liste-articles"> 
+                    <div class="contenu">
                     <img src="ressources/images/BUT-MMI-1.png" >
+                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme
                     </a> 
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
