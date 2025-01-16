@@ -40,7 +40,7 @@ h1 {
     font-weight: bold;
 }
 
-p .texte{
+.texte{
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
     font-size: 1.4rem;
