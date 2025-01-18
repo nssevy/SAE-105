@@ -41,7 +41,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Vérification que tous les champs sont remplis
     if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
-        $error = "L'envoi du message a échoué. Veuillez remplir tous les champs.";
+        $error = "L'envoi du message a échoué. Veuillez remplir tous les champs.";} 
+    elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) { 
+        $error = "L'adresse email n'est pas valide.";
     } else {
         $to = "fily.toure3@etu.cyu.fr"; // adresse de reception des messages
         $subject = "Message depuis le site BUT MMI";
