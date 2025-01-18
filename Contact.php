@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/npm-header.css">
     <link rel="stylesheet" href="ressources/css-élève/style-contact.css">
     <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
-    <link rel="stylesheet" href="ressources/css-élève/style-header-eleve.css?v=<?php echo time(); ?>">
+      <link rel="stylesheet" href="ressources/css-élève/style-header-eleve.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -87,16 +87,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Formulaire de contact -->
         <form method="POST" action="">
             <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
+            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>" required>
 
             <label for="nom">Nom de famille</label>
-            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>" >
+            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>" required>
 
             <label for="email">Adresse e-mail</label>
-            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
+            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required>
 
             <label for="message">Message</label>
-            <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
+            <textarea id="message" name="message" required><?php echo htmlspecialchars($message); ?></textarea>
 
             <label>Je suis :</label>
             <div class="radio-group">
