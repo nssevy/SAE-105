@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>" required>
 
             <label for="email">Adresse e-mail</label>
-            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required>
+            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
 
             <label for="message">Message</label>
             <textarea id="message" name="message" required><?php echo htmlspecialchars($message); ?></textarea>
