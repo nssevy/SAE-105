@@ -25,106 +25,122 @@
         <?php require_once('./ressources/includes/header.php'); 
         
         ?>
-        <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
-         <main>
-        <?php
-// Gestion des messages de confirmation ou d'erreur
-$error = $success = '';
-$prenom = $nom = $email = $message = $type = '';
+      <main>
+    <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $prenom = trim($_POST["prenom"]);
-    $nom = trim($_POST["nom"]);
-    $email = trim($_POST["email"]);
-    $message = trim($_POST["message"]);
-    $type = isset($_POST["type"]) ? $_POST["type"] : '';
+    // Gestion des messages de confirmation ou d'erreur //
+    $error = $success = '';
+    $prenom = $nom = $email = $message = $type = '';
 
-    // Vérification que tous les champs sont remplis
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Lien des données php en html //
+        $prenom = trim($_POST["prenom"]);
+        $nom = trim($_POST["nom"]);
+        $email = trim($_POST["email"]);
+        $message = trim($_POST["message"]);
+        $type = isset($_POST["type"]) ? $_POST["type"] : '';
+
+    // Vérification que tous les champs sont remplis //
     if (empty($prenom) || empty($nom) || empty($email) || empty($message) || empty($type)) {
-        $error = "L'envoi du message a échoué. Veuillez remplir tous les champs.";} 
+            $error = "L'envoi du message a échoué. Veuillez remplir tous les champs.";
+        } 
+        
+    // Vérification de l'email //
     elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) { 
-        $error = "L'adresse email n'est pas valide.";
-    } else {
-        $to = "fily.toure3@etu.cyu.fr"; // adresse de reception des messages
-        $subject = "Message depuis le site BUT MMI";
-        $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
-
-        // Envoi de l'e-mail
-        if (mail($to, $subject, $body)) {
-            $success = "Votre message a bien été envoyé.";
-            $prenom = $nom = $email = $message = $type = ''; // Réinitialisation
+            $error = "L'adresse email n'est pas valide.";
         } else {
-            $error = "L'envoi du message a échoué. Veuillez réessayer.";
+            
+    // Envoi de l'email si tout est valide //
+            $to = "fily.toure3@etu.cyu.fr"; // adresse de réception des messages
+            $subject = "Message depuis le site BUT MMI";
+            $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
+
+    // Envoi du mail //
+    if (mail($to, $subject, $body)) {
+                $success = "Votre message a bien été envoyé.";
+                
+    // Réinitialisation des champs après envoi du mail //
+                $prenom = $nom = $email = $message = $type = '';
+            } else {
+                $error = "L'envoi du message a échoué. Veuillez réessayer.";
+            }
         }
     }
-}
-?>
+    ?>
 
-<!-- Affichage des messages d'erreur ou de confirmation -->
+    <!-- Paramétrage des messages d'erreur ou de confirmation -->
+    <?php if ($error): ?>
+        <div class="error-banner"><?php echo $error; ?></div>
+    <?php elseif ($success): ?>
+        <div class="success-banner"><?php echo $success; ?></div>
+    <?php endif; ?>
 
-<?php if ($error): ?>
-    <div class="error-banner"><?php echo $error; ?></div>
-<?php elseif ($success): ?>
-    <div class="success-banner"><?php echo $success; ?></div>
-<?php endif; ?>
+    <!-- Contenu principal haut du formulaire -->
+    <h1>Plus d'infos sur la formation ? </h1>
+    <br>
+    <h1>Contactez-nous !</h1>
+    <br>
 
-<!-- Contenu principal en tête -->
+    <p class="texte"> 
+        <span class="gras">La formation s'ouvre à tous les bacheliers.</span> 
+        Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
+        <span class="gras">Il est également possible de faire la formation après une reprise d'études ou une réorientation.</span>
+    </p>
 
-<h1>Plus d'infos sur la formation ? </h1>
-<br>
-<h1>Contactez-nous !</h1>
-<br>
+    <div class="en-ligne">
+        <h1>Nous contacter en ligne</h1><br>
+    </div>
 
+    <!-- Formulaire de contact -->
+    <div class="bloc-texte">
+    
+    <form method="POST" action="">
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
 
-<p class="texte"> <span class="gras">La formation s'ouvre à tous les bacheliers.</span> Avoir des connaissances en programmation, design ou audiovisuel est un atout, car il faut de la curiosité dans cette formation pluridisciplinaire. 
-    <span class="gras">Il est également possible de faire la formation après une formation après une reprise d'études ou une réorientation.</span></p>
+        <label for="nom">Nom de famille</label>
+        <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
 
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
 
-<div class="en-ligne">
-<h1>Nous contacter en ligne</h1><br>
-</div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
 
-<div class="bloc-texte">
+        <label>Je suis :</label>
 
-        <!-- Formulaire de contact -->
-        <form method="POST" action="">
-            <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
+    <div class="radio-group">
 
-            <label for="nom">Nom de famille</label>
-            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
+        <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
+        <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
+        <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
 
-            <label for="email">Adresse e-mail</label>
-            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
+    </div>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
-
-            <label>Je suis :</label>
-            <div class="radio-group">
-                <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
-                <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
-                <label><input type="radio" name="type" value="Autre" <?php echo ($type == 'Autre') ? 'checked' : ''; ?>> Autre</label>
-         
-                </div>
-            <button type="submit">ENVOYER</button><br>
-        </form>
-      
+        <button type="submit">ENVOYER</button><br>
+        
+    </form>
+    </div>
 
     <!-- Pied de form -->
 
     <div class="courrier">
+
         <h1>Nous contacter par courrier</h1><br>
 
         <p class="texte">IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
         95200 Sarcelles</p>
+
     </div>
 
     </main>
     <footer>
+
         <?php require_once('./ressources/includes/footer.php'); ?>
+
     </footer>
 </body>
 

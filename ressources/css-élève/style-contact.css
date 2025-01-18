@@ -1,3 +1,12 @@
+/* Réinitialisation de base */
+body {
+    margin-left: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Global settings */
 html {
     scroll-behavior: smooth;
 }
@@ -10,17 +19,31 @@ html {
     background-color: #EE8F00;
 }
 
-/* Réinitialisation de base */
-body {
-    margin-left: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+/* Typographie */
+h1 {
+    font-size: 1.8rem;
+    font: 'open sans'; 
+    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: bold;
 }
 
-.bloc-texte {
-    max-width: 800px;
-    margin-left: 0px ;
+.texte {
+    font: 'open sans'; 
+    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
+    line-height: 1.5;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.en-ligne {
+    padding-top: 20px;
+}
+
+.courrier {
+    padding-top: 15px;
+    line-height: 1.5;
 }
 
 /* En-tête */
@@ -29,41 +52,11 @@ header {
     margin-bottom: 20px;
 }
 
-.phrase-présentation{
+/* Formulaire */
+
+.bloc-texte {
+    max-width: 800px;
     margin-left: 0px;
-}
-
-h1 {
-    font-size: 1.8rem;
-    font: 'open sans'; 
-    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
-    font-weight: bold;
-}
-
-.texte{
-    font: 'open sans'; 
-    src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
-    line-height: 1.5;
-}
-
-.en-ligne{
-    padding-top: 20px;
-}
-
-.gras{
-font-weight: bold;
-}
-
-
-/* Section Contact */
-.contact-section {
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.contact-section h2 {
-    font-size: 1.125rem;
-    margin-bottom: 10px;
 }
 
 form {
@@ -110,17 +103,11 @@ button:hover {
     background-color: #0056b3;
 }
 
-/*Contacter par courrier */
-.courrier {
-    padding-top: 15px;
-    line-height: 1.5;
-}
-
 /* Bannières messages d'envoi et d'erreur */
 .success-banner {
     background-color: #d4edda;
     color: #155724;
-    padding: 1.25rem ;
+    padding: 1.25rem;
     margin: 1rem 0;
     border: 1px solid #c3e6cb;
     text-align: center;
@@ -131,11 +118,12 @@ button:hover {
 .error-banner {
     background-color: #f8d7da;
     color: #721c24;
-    padding: 1.25rem ;
+    padding: 1.25rem;
     margin: 1rem 0;
     border: 1px solid #f5c6cb;
     text-align: center;
     border-radius: 5px;
     font-size: 1.25rem;
 }
+
 
