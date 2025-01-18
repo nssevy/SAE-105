@@ -51,8 +51,8 @@
             $error = "L'adresse email n'est pas valide.";
         } else {
             
-    // Envoi de l'email si tout est valide //
-            $to = "fily.toure3@etu.cyu.fr"; // adresse de réception des messages
+    // Envoi du mail si tout est valide //
+            $to = "fily.toure3@etu.cyu.fr"; // mail de réception des messages
             $subject = "Message depuis le site BUT MMI";
             $body = "Prénom : $prenom\nNom : $nom\nEmail : $email\nType : $type\nMessage :\n$message";
 
@@ -110,7 +110,7 @@
 
         <label>Je suis :</label>
 
-    <div class="radio-group">
+    <div class="form-radio">
 
         <label><input type="radio" name="type" value="Etudiant" <?php echo ($type == 'Etudiant') ? 'checked' : ''; ?>> Étudiant / Étudiante</label>
         <label><input type="radio" name="type" value="Parent" <?php echo ($type == 'Parent') ? 'checked' : ''; ?>> Parent</label>
