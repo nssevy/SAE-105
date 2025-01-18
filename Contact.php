@@ -87,16 +87,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Formulaire de contact -->
         <form method="POST" action="">
             <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>" required>
+            <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
 
             <label for="nom">Nom de famille</label>
-            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>" required>
+            <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>" >
 
             <label for="email">Adresse e-mail</label>
-            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required>
+            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
 
             <label for="message">Message</label>
-            <textarea id="message" name="message" required><?php echo htmlspecialchars($message); ?></textarea>
+            <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
 
             <label>Je suis :</label>
             <div class="radio-group">
