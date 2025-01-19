@@ -97,10 +97,10 @@
     
     <form method="POST" action="">
         <label for="prenom">Prénom</label>
-        <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>"required>
+        <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
 
         <label for="nom">Nom de famille</label>
-        <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>"required>
+        <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
 
         <label for="email">Adresse e-mail</label>
         <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
