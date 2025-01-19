@@ -47,7 +47,7 @@
                         <br>Les études</a>
                     <p> Vous verrez sur cet article quels poursuites d'études s'offrent à vous une fois votre BUT MMI finit </p>
 </div>
-<div>
+<div class="contenu">
                     <img src="ressources/images/parcours-num.png">
                     <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" >
                         <br> Exemple de parcours> </a>
