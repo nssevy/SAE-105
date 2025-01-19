@@ -42,7 +42,7 @@
                     <p> Cet article s'intéresse au programme que propose le BUT MMI. Il vous en apprendra plus sur l'organisation, les matières, le rythme... </p>
 </div>
 <div class="contenu">
-                    <img src="ressources/images/études.jpg">
+                    <img src="ressources/images/étude.jpg">
                     <a href="https://diplomeo.com/actualite-que_faire_apres_un_but_mmi" > 
                         <br>Les études</a>
                     <p> Vous verrez sur cet article quels poursuites d'études s'offrent à vous une fois votre BUT MMI finit </p>
