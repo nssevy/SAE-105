@@ -38,6 +38,7 @@
                     <img src="ressources/images/BUT-MMI-1.png" >
                     <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> 
                         <br> Le programme </a> 
+                        <br>
                     <p> Cet article s'intéresse au programme que propose le BUT MMI. Il vous en apprendra plus sur l'organisation, les matières, le rythme... </p>
 </div>
                 </section>
