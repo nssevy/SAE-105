@@ -36,8 +36,11 @@
                 <section class="liste-articles"> 
                     <div class="contenu">
                     <img src="ressources/images/BUT-MMI-1.png" >
+</div>
+<div classe="lien">
                    
-                    <a class="lien" href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme </a> 
+                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme </a> 
+</div>
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
