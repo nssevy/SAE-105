@@ -36,8 +36,23 @@
                 <section class="liste-articles"> 
                     <div class="contenu">
                     <img src="ressources/images/BUT-MMI-1.png" >
-                   
-                    <a class="lien" href="https://blogdummi.fr/le-programme-du-but-mmi.html"> Le programme </a> 
+                    <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> 
+                        <br> Le programme </a> 
+                        <br>
+                    <p> Cet article s'intéresse au programme que propose le BUT MMI. Il vous en apprendra plus sur l'organisation, les matières, le rythme... </p>
+</div>
+<div class="contenu">
+                    <img src="ressources/images/étude.jpg">
+                    <a href="https://diplomeo.com/actualite-que_faire_apres_un_but_mmi" > 
+                        <br>Les études</a>
+                    <p> Vous verrez sur cet article quels poursuites d'études s'offrent à vous une fois votre BUT MMI finit </p>
+</div>
+<div class="contenu">
+                    <img src="ressources/images/parcours-num.png">
+                    <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" >
+                        <br> Exemple de parcours </a>
+                    <p> Voici un exemple de parcours proposé dans le BUT MMI </p>
+</div>
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
                     <img src="ressources/images/logo-cyu-blanc.png" width="200" class="logo" alt="">
