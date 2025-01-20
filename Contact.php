@@ -96,16 +96,16 @@
     <div class="bloc-texte">
     
     <form method="POST" action="">
-        <label for="prenom">Prénom</label>
+        <label for="prenom">Prénom*</label>
         <input type="text" id="prenom" name="prenom" value="<?php echo htmlspecialchars($prenom); ?>">
 
-        <label for="nom">Nom de famille</label>
+        <label for="nom">Nom de famille*</label>
         <input type="text" id="nom" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
 
-        <label for="email">Adresse e-mail</label>
+        <label for="email">Adresse e-mail*</label>
         <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
 
-        <label for="message">Message</label>
+        <label for="message">Message*</label>
         <textarea id="message" name="message"><?php echo htmlspecialchars($message); ?></textarea>
 
         <label>Je suis :</label>
