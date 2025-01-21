@@ -31,6 +31,7 @@ h1 {
     font: 'open sans'; 
     src: url('../../fonts/OpenSans-Regular-webfont.woff') format('woff');
     line-height: 1.5;
+    margin-top: 15px;
 }
 
 .gras {
@@ -43,8 +44,7 @@ h1 {
 }
 
 .courrier {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 .infos {
