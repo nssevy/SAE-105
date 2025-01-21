@@ -37,21 +37,20 @@
                     <div class="contenu">
                     <img src="ressources/images/BUT-MMI-1.png" >
                     <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> 
-                        <br> Le programme </a> 
-                        <br>
-                    <p> Cet article s'intéresse au programme que propose le BUT MMI. Il vous en apprendra plus sur l'organisation, les matières, le rythme... </p>
+                     Le programme </a> 
+                          <p> Cet article s'intéresse au programme que propose le BUT MMI. Il vous en apprendra plus sur l'organisation, les matières, le rythme... </p>
 </div>
 <div class="contenu">
                     <img src="ressources/images/étude.jpg">
                     <a href="https://diplomeo.com/actualite-que_faire_apres_un_but_mmi" > 
-                        <br>Les études</a>
-                    <p> Vous verrez sur cet article quels poursuites d'études s'offrent à vous une fois votre BUT MMI finit </p>
+                        Les études</a>
+                    <p> Vous verrez sur cet article quelles sont les poursuites d'études qui s'offrent à vous une fois votre BUT MMI terminé. </p>
 </div>
 <div class="contenu">
                     <img src="ressources/images/parcours-num.png">
-                    <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" >
-                        <p class="p1">Exemple de parcours </p> </a>
-                    <p> Voici un exemple de parcours proposé dans le BUT MMI </p>
+                    <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" > </div>
+                        <div class="p1"> Exemple de parcours </div> </a>
+                    <p> Voici un exemple de parcours proposé dans le BUT MMI afin de vous donner une idée sur ce qui vous attend. </p>
 </div>
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
