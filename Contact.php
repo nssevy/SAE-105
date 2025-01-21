@@ -77,10 +77,11 @@
     <?php endif; ?>
 
     <!-- Contenu principal haut du formulaire -->
+    <div class="infos">
     <h1>Plus d'infos sur la formation ? </h1>
-    <br>
+    </div>
+    
     <h1>Contactez-nous !</h1>
-    <br>
 
     <p class="texte"> 
         <span class="gras">La formation s'ouvre à tous les bacheliers.</span> 
