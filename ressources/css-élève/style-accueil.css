@@ -20,5 +20,12 @@ html {
     padding: 1rem;
 
 }
+
+.p1 {
+    font-size: 2rem;
+    font-style: bold;
+    text-decoration: underline;
+    color: black;
+}
     
     
