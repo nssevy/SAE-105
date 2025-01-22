@@ -35,19 +35,19 @@
             <section class="colonne">
                 <section class="liste-articles"> 
                     <div class="contenu">
-                    <img src="ressources/images/BUT-MMI-1.png" >
+                    <img src="ressources/images/image-défaut.png" >
                     <a href="https://blogdummi.fr/le-programme-du-but-mmi.html"> 
                      Le programme </a> 
                           <p> Cet article s'intéresse au programme que propose le BUT MMI. Il vous en apprendra plus sur l'organisation, les matières, le rythme... </p>
 </div>
 <div class="contenu">
-                    <img src="ressources/images/étude.jpg">
+                    <img src="ressources/images/image-défaut.png">
                     <a href="https://diplomeo.com/actualite-que_faire_apres_un_but_mmi" > 
                         Les études</a>
                     <p> Vous verrez sur cet article quelles sont les poursuites d'études qui s'offrent à vous une fois votre BUT MMI terminé. </p>
 </div>
 <div class="contenu">
-                    <img src="ressources/images/parcours-num.png">
+                    <img src="ressources/images/image-défaut.png">
                     <a class="p1"href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" > 
                         > Exemple de parcours </a> </div>
                     <p> Voici un exemple de parcours proposé dans le BUT MMI afin de vous donner une idée sur ce qui vous attend. </p>
