@@ -77,10 +77,11 @@
     <?php endif; ?>
 
     <!-- Contenu principal haut du formulaire -->
+    <div class="infos">
     <h1>Plus d'infos sur la formation ? </h1>
-    <br>
+    </div>
+    
     <h1>Contactez-nous !</h1>
-    <br>
 
     <p class="texte"> 
         <span class="gras">La formation s'ouvre à tous les bacheliers.</span> 
@@ -89,7 +90,7 @@
     </p>
 
     <div class="en-ligne">
-        <h1>Nous contacter en ligne</h1><br>
+        <h1>Nous contacter en ligne</h1>
     </div>
 
     <!-- Formulaire de contact -->
@@ -118,7 +119,7 @@
 
     </div>
 
-        <button type="submit">ENVOYER</button><br>
+        <button type="submit">ENVOYER</button>
         
     </form>
     </div>
@@ -127,14 +128,16 @@
 
     <div class="courrier">
 
-        <h1>Nous contacter par courrier</h1><br>
+        <h1>Nous contacter par courrier</h1>
+
+    </div>
 
         <p class="texte">IUT de Cergy-Pontoise<br>
         Département Métiers du Multimédia et de l'Internet<br>
         34 Bis Boulevard Henri Bergson<br>
         95200 Sarcelles</p>
 
-    </div>
+   
 
     </main>
     <footer>
