@@ -11,8 +11,8 @@ html {
 }
 
 .contenu {
-    max-width: 50rem;
-    max-height: 40rem;
+    max-width: 40rem;
+    max-height: 50rem;
     transition: transform 0.3s ease;  
     margin:10px 50px 20px 0;
     transition:0.5s;
@@ -22,7 +22,7 @@ html {
 }
 
 .p1 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: bold;
     text-decoration: underline;
     color: black;
