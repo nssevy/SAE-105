@@ -47,7 +47,7 @@
                     <p class="p2"> Le BUT MMI (Métiers du Multimédia et de l'Internet) propose un programme varié alliant communication, développement web, design et gestion de projet. Au fil des trois années, les étudiants acquièrent des compétences en création numérique, stratégie digitale et production audiovisuelle. Pour découvrir le détail du programme, cliquez sur le lien ci-dessus qui vous redirigera vers une page dédiée. </p>
 </div>
 <div class="contenu">
-                    <img src="ressources/images/image-défaut.png">
+                    <img src="ressources/images/image-défaut.png" >
                     <a class="p1"href="https://diplomeo.com/actualite-que_faire_apres_un_but_mmi" > 
                           Les poursuites d'études </a> 
                     <p class="p2"> Le BUT MMI (Métiers du Multimédia et de l'Internet) ouvre de nombreuses possibilités de poursuites d’études. Après l’obtention du diplôme, les étudiants peuvent intégrer des masters en communication, design, marketing digital ou développement web, ou encore des écoles spécialisées. Ces formations permettent de se spécialiser davantage et d’accéder à des postes à plus hautes responsabilités. Pour en savoir plus sur les poursuites d’études, cliquez sur le lien ci-dessus qui vous redirigera vers une page dédiée.. </p>
