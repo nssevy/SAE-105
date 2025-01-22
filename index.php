@@ -50,7 +50,6 @@
                     <img src="ressources/images/image-défaut.png">
                     <a class="p1"href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" > 
                          <span class="p2"> Exemple de parcours </span> </a> 
-                         
                     <p> Voici un exemple de parcours proposé dans le BUT MMI afin de vous donner une idée sur ce qui vous attend. </p>
 </div>
                 </section>
