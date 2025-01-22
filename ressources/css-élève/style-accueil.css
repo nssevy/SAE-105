@@ -11,9 +11,8 @@ html {
 }
 
 .contenu {
-    max-width: 40rem;
-    height: 30rem;
-    transition: transform 0.3s ease;  
+    width: 60rem;
+    height: 30rem; 
     margin:10px 50px 20px 0;
     transition:0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
