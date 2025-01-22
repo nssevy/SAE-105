@@ -17,14 +17,16 @@ html {
     margin:10px 50px 20px 0;
     transition:0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
     
 
 }
 
 .p1 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-style: bold;
-    text-decoration: underline;
+    text-decoration-line: none;
+    font-weight: bold;
     color: black;
 }
     
