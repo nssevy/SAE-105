@@ -50,7 +50,7 @@
                     <img src="ressources/images/image-défaut.png">
                     <a class="p1"href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/but-metiers-du-multimedia-et-de-l-internet-parcours-creation-numerique" > 
                           Exemple de parcours </a> 
-                    <p> Voici un exemple de parcours proposé dans le BUT MMI afin de vous donner une idée sur ce qui vous attend. </p>
+                    <p class="p2"> Voici un exemple de parcours proposé dans le BUT MMI afin de vous donner une idée sur ce qui vous attend. </p>
 </div>
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
