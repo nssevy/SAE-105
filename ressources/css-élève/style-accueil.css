@@ -12,12 +12,11 @@ html {
 
 .contenu {
     max-width: 40rem;
-    max-height: 50rem;
+    max-height: 55rem;
     transition: transform 0.3s ease;  
     margin:10px 50px 20px 0;
     transition:0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
     
 
 }
@@ -30,7 +29,5 @@ html {
     color: black;
 }
     
-.p2 {
-    text-align: left;
-}
+
     
