@@ -66,68 +66,58 @@
             </div>
 
             <div id="exemples-sae">
-
                 <h1>Exemple de projet réalisés en SAÉ</h1>
-                
-                <div class="container-card">
 
-                    <div class="cards-grid">
-                        
-                        <div class="card">
-                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
-                            <div class="card-content">
-                                <h3>Auditer une communication numérique • SAÉ 101</h3>
-                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
-                            </div>
+                <div class="container_cards">
+                    <div class="cards">
+                        <img src="ressources/images/Image_de_communication.png" alt="Étudiants travaillant sur un projet ensemble.">
+                        <div class="cards_text">
+                            <h3>Auditer une communication numérique • SAE 1.01</h3>
+                            <p>Comprendre les écosystèmes, les besoins des utilisateurs et les dispositifs de communication numérique</p>
                         </div>
-
-                        <div class="card">
-                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
-                            <div class="card-content">
-                                <h3>Concevoir une recommandation de communication numérique • SAÉ 102</h3>
-                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
-                            <div class="card-content">
-                                <h3>Produire les éléments d'une communication visuelle • SAÉ 103</h3>
-                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
-                            <div class="card-content">
-                                <h3>Auditer une communication numérique • SAÉ 101</h3>
-                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
-                            <div class="card-content">
-                                <h3>Produire un site Web • SAÉ 105</h3>
-                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="ressources/images/Paysage-noir-et-blanc.png" alt="Image description">
-                            <div class="card-content">
-                                <h3>Gérer un projet de communication numérique • SAÉ 106</h3>
-                                <p>Apprendre les bases du reportage vidéo sur un sujet libre</p>
-                            </div>
-                        </div>
-
                     </div>
 
+                    <div class="cards">
+                        <img src="ressources/images/Recomandation_client.png" alt="Main pointant vers des icônes de visages exprimant des émotions.">
+                        <div class="cards_text">
+                            <h3>Concevoir une recommandation de communication numérique • SAE 1.02</h3>
+                            <p>Concevoir ou co-concevoir une réponse stratégique pertinente à une problématique complexe</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="ressources/images/Elements_visuelle.png" alt="Bureau avec ordinateur portable et outils de design.">
+                        <div class="cards_text">
+                            <h3>Produire les éléments d’une communication visuelle • SAE 1.03</h3>
+                            <p>Exprimer un message avec les médias numériques pour informer et communiquer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cards">
+                        <img src="ressources/images/Produire_contenu_audio_vidéo.png" alt="Homme utilisant un logiciel de montage vidéo.">
+                        <div class="cards_text">
+                            <h3>Produire un contenu audio et vidéo • SAE 1.04</h3>
+                            <p>Exprimer un message avec les médias numériques pour informer et communiquer</p>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <img src="ressources/images/Produire_un_site_web.png" alt="Éditeur de code avec lignes de programmation visibles.">
+                        <div class="cards_text">
+                            <h3>Produire un site Web • SAE 1.05</h3>
+                            <p>Développer pour le web et les médias numériques</p>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <img src="ressources/images/Communication_digitale.png" alt="Illustration avec icônes de médias numériques.">
+                        <div class="cards_text">
+                            <h3>Gérer un projet de communication numérique • SAE 1.06</h3>
+                            <p>Entreprendre dans le secteur du numérique</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-
-        </div>
 
         </main>
     </section>
