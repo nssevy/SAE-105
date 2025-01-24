@@ -1,32 +1,31 @@
 html {
     scroll-behavior: smooth;
 }
-
+/*couleur bulle*/
 .rose {
     background-color: #EF509F;
 }
-
+/*couleur bulle*/
 .bordeau {
     background-color: #A50253;
 }
-
+/*css pour la taille de la box ainsi que la box-shadow pour effet ombré en bas*/
 .contenu {
     width: 50rem;
     height: 43rem; 
     margin:10px 50px 20px 0;
-    transition:0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 
 }
-
+/*sylisé le lien en augmentant sa taille et sa couleur*/
 .p1 {
     font-size: 2rem;
     margin: 20px 10px 100px;
     text-decoration-line: underline;
     color: rgb(134, 36, 134);
 }
-    
+ /*stylisé le texte contenu dans la boxe*/   
 .p2 {
 margin:20px 10px 100px;
 line-height: 1.5rem;
