@@ -34,23 +34,26 @@
 
             <section class="colonne">
                 <section class="liste-articles"> 
+                    <!--ajout de la class div "contenu" où se trouve l'image, le lien de l'article et le texte explicatif-->
                     <div class="contenu">
-                    <img src="ressources/images/image-défaut.png" >
+                    <img src="ressources/images/image-défaut.png" alt="paysage en noir et blanc" >
+                    <!--ajout d'une class "p1" permettant de styliser le lien grâce au css-->
                     <a class="p1" href="https://www.letudiant.fr/etudes/dut/but-mmi-metiers-du-multimedia-et-de-l-internet.html"> 
                      La formation </a> 
                           <p class="p2"> Le BUT MMI (Métiers du Multimédia et de l'Internet) est une formation en trois ans qui prépare aux métiers du numérique, en combinant créativité et technologies. Elle permet d’acquérir des compétences en communication digitale, développement web et design. Pour en savoir plus sur cette formation, cliquez sur le lien ci-dessus qui vous redirigera vers une page dédiée. </p>
 </div>
+<!--Les contenus suivant sont donc similaires au premier-->
 <div class="contenu">
-                    <img src="ressources/images/image-défaut.png">
+                    <img src="ressources/images/image-défaut.png" alt="paysage en noir et blanc">
                     <a class="p1"href="https://blogdummi.fr/le-programme-du-but-mmi.html" > 
                         Le programme</a>
                     <p class="p2"> Le BUT MMI (Métiers du Multimédia et de l'Internet) propose un programme varié alliant communication, développement web, design et gestion de projet. Au fil des trois années, les étudiants acquièrent des compétences en création numérique, stratégie digitale et production audiovisuelle. Pour découvrir le détail du programme, cliquez sur le lien ci-dessus qui vous redirigera vers une page dédiée. </p>
 </div>
 <div class="contenu">
-                    <img src="ressources/images/image-défaut.png" >
+                    <img src="ressources/images/image-défaut.png" alt="paysage en noir et blanc" >
                     <a class="p1"href="https://diplomeo.com/actualite-que_faire_apres_un_but_mmi" > 
                           Les poursuites d'études </a> 
-                    <p class="p2"> Le BUT MMI (Métiers du Multimédia et de l'Internet) ouvre de nombreuses possibilités de poursuites d’études. Après l’obtention du diplôme, les étudiants peuvent intégrer des masters en communication, design, marketing digital ou développement web, ou encore des écoles spécialisées. Ces formations permettent de se spécialiser davantage et d’accéder à des postes à plus hautes responsabilités. Pour en savoir plus sur les poursuites d’études, cliquez sur le lien ci-dessus qui vous redirigera vers une page dédiée.. </p>
+                    <p class="p2"> Le BUT MMI (Métiers du Multimédia et de l'Internet) ouvre de nombreuses possibilités de poursuites d’études. Après l’obtention du diplôme, les étudiants peuvent intégrer des masters en communication, design, marketing digital ou développement web, ou encore des écoles spécialisées. Ces formations permettent de se spécialiser davantage et d’accéder à des postes à plus hautes responsabilités. Pour en savoir plus sur les poursuites d’études, cliquez sur le lien ci-dessus qui vous redirigera vers une page dédiée. </p>
 </div>
                 </section>
                 <a class="jpo-banniere" title="Ouverture dans un nouvel onglet" href="https://www.cyu.fr/salons-journee-portes-ouvertes">
