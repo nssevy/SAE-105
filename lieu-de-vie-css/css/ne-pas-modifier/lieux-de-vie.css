@@ -25,7 +25,7 @@ h1 {
 
 .contenu {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
 }
