@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
     <link rel="stylesheet" href="ressources/css-élève/style-accueil.css">
     <link rel="stylesheet" href="ressources/css-élève/style-header-eleve.css?v=<?php echo time(); ?>">
+    <link rel="icon" type="image/png" href="ressources/images/Logo-cyu.png">
+    <!-- Link du fav icon du site -->
     
 
     <!-- Vous n'avez pas besoin de ce fichier sur les autres pages. Ca allège le temps de chargement et diminue la consommation d'électricité -->

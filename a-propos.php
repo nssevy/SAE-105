@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="ressources/css-élève/style-a-propos.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="ressources/css-élève/style-footer.css">
     <link rel="stylesheet" href="ressources/css-élève/style-header-eleve.css?v=<?php echo time(); ?>">
+    <link rel="icon" type="image/png" href="ressources/images/Logo-cyu.png">
+    <!-- Link du fav icon du site -->
     
 </head>
 
