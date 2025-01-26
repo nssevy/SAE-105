@@ -118,7 +118,8 @@ h1 {
 .cards_text h3 {
     font-size: 1.125rem;
     font-weight: 600;
-    margin-bottom: 0.9375rem;
+    margin-bottom: 1.5625rem;
+    /* Changed from 25px to rem */
 }
 
 .cards_text p {
