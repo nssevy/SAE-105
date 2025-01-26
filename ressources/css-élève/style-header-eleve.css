@@ -1,8 +1,49 @@
+.bulle {
+    position: relative;
+    margin-top: 8rem;
+}
+
 .navigation-principale a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(52, 52, 52);
 }
 
 a:hover {
     color: #EF509F;
+}
+
+/* Style du header */
+.navigation-principale {
+    position: fixed;
+    /* Le menu reste en haut même au défilement */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    /* Fond blanc avec opacité */
+    backdrop-filter: blur(10px);
+    /* Effet de flou */
+    z-index: 1000;
+    /* Assure qu'il reste au-dessus du contenu */
+    padding: 1rem;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    /* Transition fluide */
+}
+
+/* Style des liens */
+.navigation-principale ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    /* Espacement entre les liens */
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-principale a {
+    font-size: 1rem;
+    /* Taille des polices en rem */
 }
