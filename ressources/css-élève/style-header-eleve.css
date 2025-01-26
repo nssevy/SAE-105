@@ -47,3 +47,10 @@ a:hover {
     font-size: 1rem;
     /* Taille des polices en rem */
 }
+
+.navigation-principale .logo {
+    height: 1.5625rem;
+    /* Ajuste la hauteur du logo */
+    margin-right: 2rem;
+    /* Ajoute un espace à droite de l'image */
+}

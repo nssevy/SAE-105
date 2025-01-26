@@ -1,4 +1,5 @@
 <nav class="navigation-principale">
+    <img src="ressources/images/Logo-cyu.png" alt="Logo du site" class="logo">
     <ul>
         <li>
             <a href="index.php">ACCUEIL</a>
